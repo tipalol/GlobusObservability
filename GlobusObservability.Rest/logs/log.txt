@@ -1,0 +1,59 @@
+2021-07-09 14:31:04.574 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 14:31:04.677 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 14:31:04.678 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 14:31:04.678 +03:00 [INF] Hosting environment: Development
+2021-07-09 14:31:04.678 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 14:31:09.930 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger - -
+2021-07-09 14:31:10.166 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger - - - 301 0 - 239.1401ms
+2021-07-09 14:31:10.200 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 14:31:10.427 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 226.5703ms
+2021-07-09 14:31:10.787 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-07-09 14:31:10.857 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2021-07-09 14:31:10.886 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-09 14:31:11.014 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-09 14:31:11.016 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-09 14:31:11.018 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-09 14:31:11.038 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 151.2606ms
+2021-07-09 14:31:11.038 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 180.5119ms
+2021-07-09 14:31:11.038 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 250.7704ms
+2021-07-09 14:31:12.037 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 14:31:12.459 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 422.2014ms
+2021-07-09 14:31:13.336 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/apple-touch-icon-precomposed.png - -
+2021-07-09 14:31:13.598 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/apple-touch-icon-precomposed.png - - - 404 0 - 261.8382ms
+2021-07-09 14:31:13.613 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/apple-touch-icon.png - -
+2021-07-09 14:31:13.614 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/apple-touch-icon.png - - - 404 0 - 0.9281ms
+2021-07-09 14:31:18.543 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-07-09 14:31:18.584 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-09 14:31:18.589 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 46.5408ms
+2021-07-09 14:31:18.621 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-16x16.png - -
+2021-07-09 14:31:18.622 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-07-09 14:31:18.625 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/favicon-16x16.png - - - 200 665 image/png 4.7196ms
+2021-07-09 14:31:37.787 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/WeatherForecast - -
+2021-07-09 14:31:37.828 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.WeatherForecastController.Get (GlobusObservability.Rest)'
+2021-07-09 14:31:37.985 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Rest.WeatherForecast] Get() on controller GlobusObservability.Rest.Controllers.WeatherForecastController (GlobusObservability.Rest).
+2021-07-09 14:31:38.032 +03:00 [INF] Executing ObjectResult, writing value of type 'GlobusObservability.Rest.WeatherForecast[]'.
+2021-07-09 14:31:38.143 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.WeatherForecastController.Get (GlobusObservability.Rest) in 130.2967ms
+2021-07-09 14:31:38.156 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.WeatherForecastController.Get (GlobusObservability.Rest)'
+2021-07-09 14:31:38.156 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 370.4206ms
+2021-07-09 14:47:51.703 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 14:47:51.749 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 14:47:51.750 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 14:47:51.750 +03:00 [INF] Hosting environment: Development
+2021-07-09 14:47:51.751 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 14:47:55.022 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger - -
+2021-07-09 14:47:55.161 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger - - - 301 0 - 149.0938ms
+2021-07-09 14:47:55.195 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 14:47:55.509 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 312.6868ms
+2021-07-09 14:47:55.870 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-09 14:47:56.005 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-09 14:47:56.024 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 154.1180ms
+2021-07-09 14:47:56.883 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 14:47:57.261 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 378.0670ms
+2021-07-09 14:48:09.345 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Metrics - -
+2021-07-09 14:48:09.529 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 14:48:09.658 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Metric] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-09 14:48:09.691 +03:00 [DBG] Get All Metrics Request
+2021-07-09 14:48:09.708 +03:00 [INF] Executing ObjectResult, writing value of type 'null'.
+2021-07-09 14:48:09.732 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 54.7342ms
+2021-07-09 14:48:09.751 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 14:48:09.762 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Metrics - - - 204 0 - 416.2018ms

@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "GlobusObservability.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GlobusObservability.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlobusObservability.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GlobusObservability.Core/1.0.0": {
+      "type": "project",
+      "path": "../GlobusObservability.Core/GlobusObservability.Core.csproj",
+      "msbuildProject": "../GlobusObservability.Core/GlobusObservability.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "GlobusObservability.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sorokindmitrij/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj",
+      "projectName": "GlobusObservability.Infrastructure",
+      "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj",
+      "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+      "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+              "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

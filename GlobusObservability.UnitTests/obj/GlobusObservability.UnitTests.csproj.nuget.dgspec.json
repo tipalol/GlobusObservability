@@ -4,14 +4,14 @@
     "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj": {
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj",
-        "projectName": "GlobusObservability.UnitTests",
-        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj",
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
+        "projectName": "GlobusObservability.Core",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
         "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
-        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/obj/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,205 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj",
+        "projectName": "GlobusObservability.Infrastructure",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj",
+        "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj",
+        "projectName": "GlobusObservability.Rest",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj",
+        "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
+              },
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj",
+        "projectName": "GlobusObservability.UnitTests",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj",
+        "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
+              },
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -49,6 +248,18 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.17.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -66,6 +277,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

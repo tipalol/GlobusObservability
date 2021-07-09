@@ -1,0 +1,12 @@
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/bin/Debug/net5.0/GlobusObservability.Core.deps.json
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/bin/Debug/net5.0/GlobusObservability.Core.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/bin/Debug/net5.0/ref/GlobusObservability.Core.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/bin/Debug/net5.0/GlobusObservability.Core.pdb
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.csproj.AssemblyReference.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.AssemblyInfoInputs.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.AssemblyInfo.cs
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.csproj.CoreCompileInputs.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/ref/GlobusObservability.Core.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/Debug/net5.0/GlobusObservability.Core.pdb

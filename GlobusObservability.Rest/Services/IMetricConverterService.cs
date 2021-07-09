@@ -1,7 +1,9 @@
+using GlobusObservability.Core;
+
 namespace GlobusObservability.Rest.Services
 {
     public interface IMetricConverterService
     {
-        public string ConvertToJson(string xml);
+        public Metric ConvertToJson(string xml);
     }
 }
