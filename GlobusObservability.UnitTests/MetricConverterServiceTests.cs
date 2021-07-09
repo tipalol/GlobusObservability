@@ -1,4 +1,4 @@
-using GlobusObservability.Rest.Services;
+using GlobusObservability.Core.Services;
 using NUnit.Framework;
 
 namespace GlobusObservability.UnitTests

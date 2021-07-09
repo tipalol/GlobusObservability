@@ -57,3 +57,97 @@
 2021-07-09 14:48:09.732 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 54.7342ms
 2021-07-09 14:48:09.751 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
 2021-07-09 14:48:09.762 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Metrics - - - 204 0 - 416.2018ms
+2021-07-09 15:28:31.309 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 15:28:31.416 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 15:28:31.417 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 15:28:31.417 +03:00 [INF] Hosting environment: Development
+2021-07-09 15:28:31.417 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 15:28:39.513 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 15:28:39.835 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 331.5804ms
+2021-07-09 15:28:40.028 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-09 15:28:40.231 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-09 15:28:40.287 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 258.9908ms
+2021-07-09 15:28:40.984 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 15:28:41.271 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 286.3531ms
+2021-07-09 15:28:49.569 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Metrics - -
+2021-07-09 15:28:49.972 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 15:28:50.129 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Metric] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-09 15:28:50.223 +03:00 [DBG] Get All Metrics Request
+2021-07-09 15:28:50.266 +03:00 [INF] Executing ObjectResult, writing value of type 'null'.
+2021-07-09 15:28:50.381 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 140.7663ms
+2021-07-09 15:28:50.446 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 15:28:50.447 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Metrics - - - 204 0 - 901.3827ms
+2021-07-09 17:17:26.268 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 17:17:26.309 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 17:17:26.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 17:17:26.309 +03:00 [INF] Hosting environment: Development
+2021-07-09 17:17:26.310 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 17:17:32.363 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 17:17:32.594 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 234.9003ms
+2021-07-09 17:17:33.666 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 17:17:34.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 336.3546ms
+2021-07-09 17:29:39.728 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:40.316 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 17:29:40.321 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 17:29:40.322 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 17:29:40.322 +03:00 [INF] Hosting environment: Development
+2021-07-09 17:29:40.322 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 17:29:40.780 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:41.783 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:42.798 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:43.637 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 17:29:43.809 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:43.883 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 249.7898ms
+2021-07-09 17:29:44.815 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:44.941 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 17:29:45.187 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 246.0714ms
+2021-07-09 17:29:45.820 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:46.823 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:47.827 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:48.828 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:49.833 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:29:50.836 +03:00 [DBG] FileWatcher is running
+2021-07-09 17:40:14.286 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 17:40:14.367 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 17:40:14.368 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 17:40:14.368 +03:00 [INF] Hosting environment: Development
+2021-07-09 17:40:14.368 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 17:40:16.767 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 17:40:17.082 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 318.6436ms
+2021-07-09 17:40:18.170 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 17:40:18.702 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 516.8957ms
+2021-07-09 17:54:43.807 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 17:54:43.849 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 17:54:43.849 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 17:54:43.849 +03:00 [INF] Hosting environment: Development
+2021-07-09 17:54:43.850 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 17:54:46.370 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 17:54:46.996 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 629.7644ms
+2021-07-09 17:54:48.358 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 17:54:48.825 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 467.3181ms
+2021-07-09 17:56:00.071 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 17:56:00.111 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 17:56:00.111 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 17:56:00.111 +03:00 [INF] Hosting environment: Development
+2021-07-09 17:56:00.112 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 17:56:02.171 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 17:56:02.470 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 308.8558ms
+2021-07-09 17:56:03.234 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 17:56:03.707 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 474.0065ms
+2021-07-09 18:23:36.931 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:23:36.975 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:23:36.975 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:23:36.975 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:23:36.976 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:23:40.135 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:23:40.537 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 407.3740ms
+2021-07-09 18:23:41.926 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:23:42.661 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 734.5631ms
+2021-07-09 18:23:50.492 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Metrics - -
+2021-07-09 18:23:50.610 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 18:23:50.680 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Entities.Metric] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-09 18:23:50.694 +03:00 [INF] GET Request: GetAllMetrics
+2021-07-09 18:23:50.710 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2+ValueCollection[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GlobusObservability.Core.Entities.Metric, GlobusObservability.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-09 18:23:50.778 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 81.7635ms
+2021-07-09 18:23:50.784 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 18:23:50.785 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Metrics - - - 200 - application/json;+charset=utf-8 293.0769ms

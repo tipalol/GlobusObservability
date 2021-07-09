@@ -40,3 +40,5 @@
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/obj/Debug/net5.0/GlobusObservability.Rest.genruntimeconfig.cache
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Core.dll
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Core.pdb
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Infrastructure.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Infrastructure.pdb

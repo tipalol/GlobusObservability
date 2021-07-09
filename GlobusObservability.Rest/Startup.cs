@@ -1,17 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using GlobusObservability.Core.Services;
 using GlobusObservability.Infrastructure.Repositories;
-using GlobusObservability.Rest.Services;
+using GlobusObservability.Rest.Workers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace GlobusObservability.Rest
@@ -27,10 +21,13 @@ namespace GlobusObservability.Rest
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IMetricConverterService, MetricConverterService>();
+            services.AddSingleton<IMetricConverterService, MetricConverterService>();
             services.AddSingleton<IMetricRepository, MetricRepository>();
             
+            services.AddHostedService<MetricsWatcher>();
+            
             services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "GlobusObservability.Rest", Version = "v1"});

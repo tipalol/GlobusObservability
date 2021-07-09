@@ -1,6 +1,6 @@
 using System;
 
-namespace GlobusObservability.Core
+namespace GlobusObservability.Core.Entities
 {
     public class Metric
     {

@@ -1,15 +1,23 @@
 using System;
 using System.Collections.Generic;
-using GlobusObservability.Core;
+using GlobusObservability.Core.Entities;
+using GlobusObservability.Core.Services;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
     public class MetricRepository : IMetricRepository
     {
-        public IEnumerable<Metric> GetAllMetrics()
+        private readonly Dictionary<string, Metric> _metrics;
+        private readonly IMetricConverterService _metricConverter;
+
+        public MetricRepository(IMetricConverterService metricConverter)
         {
-            throw new NotImplementedException();
+            _metricConverter = metricConverter;
+            _metrics = new Dictionary<string, Metric>();
         }
+        
+        public IEnumerable<Metric> GetAllMetrics()
+            => _metrics.Values;
 
         public IEnumerable<Metric> GetMetricsInPeriod(DateTime @from, DateTime to)
         {
@@ -17,13 +25,13 @@ namespace GlobusObservability.Infrastructure.Repositories
         }
 
         public void AddMetric(Metric metric)
-        {
-            throw new NotImplementedException();
-        }
+            => _metrics.Add(metric.Date.ToString("G"), metric);
 
-        public void AddMetrics(IEnumerable<Metric> metrics)
+        public void AddRawXml(XmlMetricDto xmlMetric)
         {
-            throw new NotImplementedException();
+            var metric = _metricConverter.ConvertToJson(xmlMetric);
+            
+            AddMetric(metric);
         }
     }
 }

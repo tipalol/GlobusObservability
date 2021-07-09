@@ -34,6 +34,7 @@
       "GlobusObservability.Rest/1.0.0": {
         "dependencies": {
           "GlobusObservability.Core": "1.0.0",
+          "GlobusObservability.Infrastructure": "1.0.0",
           "Serilog": "2.10.0",
           "Serilog.AspNetCore": "4.1.0",
           "Serilog.Sinks.Console": "3.1.1",
@@ -1012,6 +1013,17 @@
         },
         "compile": {
           "GlobusObservability.Core.dll": {}
+        }
+      },
+      "GlobusObservability.Infrastructure/1.0.0": {
+        "dependencies": {
+          "GlobusObservability.Core": "1.0.0"
+        },
+        "runtime": {
+          "GlobusObservability.Infrastructure.dll": {}
+        },
+        "compile": {
+          "GlobusObservability.Infrastructure.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3204,6 +3216,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "GlobusObservability.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlobusObservability.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

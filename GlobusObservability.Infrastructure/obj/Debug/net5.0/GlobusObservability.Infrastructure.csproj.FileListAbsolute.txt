@@ -1,0 +1,15 @@
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/GlobusObservability.Infrastructure.deps.json
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/GlobusObservability.Infrastructure.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/ref/GlobusObservability.Infrastructure.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/GlobusObservability.Infrastructure.pdb
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/GlobusObservability.Core.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/bin/Debug/net5.0/GlobusObservability.Core.pdb
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.csproj.AssemblyReference.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.AssemblyInfoInputs.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.AssemblyInfo.cs
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.csproj.CopyComplete
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/ref/GlobusObservability.Infrastructure.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/obj/Debug/net5.0/GlobusObservability.Infrastructure.pdb

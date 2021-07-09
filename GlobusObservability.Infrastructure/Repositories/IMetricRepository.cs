@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using GlobusObservability.Core;
+using GlobusObservability.Core.Entities;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
@@ -27,9 +28,9 @@ namespace GlobusObservability.Infrastructure.Repositories
         public void AddMetric(Metric metric);
         
         /// <summary>
-        /// Adds new metrics to repository
+        /// Adds raw xml metric which will be converted to json metric
         /// </summary>
-        /// <param name="metrics">Metrics</param>
-        public void AddMetrics(IEnumerable<Metric> metrics);
+        /// <param name="xmlMetric"></param>
+        public void AddRawXml(XmlMetricDto xmlMetric);
     }
 }
