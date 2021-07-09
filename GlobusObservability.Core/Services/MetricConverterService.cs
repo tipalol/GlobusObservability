@@ -9,7 +9,9 @@ namespace GlobusObservability.Core.Services
         {
             // Convert code goes here
 
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            return new() {Id = "Congrats!", Date = DateTime.Now, Value = new[]{1f, 2f}};
         }
     }
 }

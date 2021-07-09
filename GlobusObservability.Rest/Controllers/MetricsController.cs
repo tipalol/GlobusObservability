@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Infrastructure.Repositories;
@@ -7,7 +8,7 @@ using Serilog;
 namespace GlobusObservability.Rest.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api")]
     public class MetricsController : ControllerBase
     {
         private readonly ILogger _logger;
@@ -19,12 +20,22 @@ namespace GlobusObservability.Rest.Controllers
             _metricRepository = metricRepository;
         }
 
-        [HttpGet]
+        [HttpGet("metrics")]
         public IEnumerable<Metric> GetAllMetrics()
         {
             var metrics = _metricRepository.GetAllMetrics();
             
             _logger.Information("GET Request: GetAllMetrics");
+
+            return metrics;
+        }
+        
+        [HttpGet("metricsInPeriod")]
+        public IEnumerable<Metric> GetMetricsInPeriod(DateTime from, DateTime to)
+        {
+            var metrics = _metricRepository.GetMetricsInPeriod(from, to);
+            
+            _logger.Information($"GET Request: GetMetricsInPeriod {from} {to}", from, to);
 
             return metrics;
         }

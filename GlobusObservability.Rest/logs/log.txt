@@ -151,3 +151,108 @@
 2021-07-09 18:23:50.778 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 81.7635ms
 2021-07-09 18:23:50.784 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
 2021-07-09 18:23:50.785 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Metrics - - - 200 - application/json;+charset=utf-8 293.0769ms
+2021-07-09 18:35:59.942 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:35:59.998 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:35:59.998 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:35:59.998 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:35:59.999 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:36:03.141 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:36:03.477 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 357.7186ms
+2021-07-09 18:36:04.808 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:36:05.080 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Metrics" for actions - GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest),GlobusObservability.Rest.Controllers.MetricsController.GetMetricsInPeriod (GlobusObservability.Rest). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-09 18:36:05.402 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 500 - text/plain 592.2453ms
+2021-07-09 18:39:48.066 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:39:48.138 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 74.5595ms
+2021-07-09 18:39:49.092 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:39:49.115 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Metrics" for actions - GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest),GlobusObservability.Rest.Controllers.MetricsController.GetMetricsInPeriod (GlobusObservability.Rest). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-09 18:39:49.158 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 500 - text/plain 65.7667ms
+2021-07-09 18:42:09.773 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:42:09.816 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:42:09.816 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:42:09.817 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:42:09.817 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:42:12.390 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:42:12.666 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 278.1084ms
+2021-07-09 18:42:14.553 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:42:14.803 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 250.8580ms
+2021-07-09 18:43:06.651 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:43:06.707 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:43:06.708 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:43:06.708 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:43:06.709 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:43:07.826 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:43:08.023 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 201.6555ms
+2021-07-09 18:43:08.432 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:43:08.463 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Metrics" for actions - GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest),GlobusObservability.Rest.Controllers.MetricsController.GetMetricsInPeriod (GlobusObservability.Rest). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-09 18:43:08.569 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 500 - text/plain 136.4002ms
+2021-07-09 18:44:11.441 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:44:11.497 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:44:11.499 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:44:11.499 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:44:11.500 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:44:13.585 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:44:14.348 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 592.6814ms
+2021-07-09 18:44:14.900 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:44:15.145 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.2724ms
+2021-07-09 18:45:06.594 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 18:45:06.661 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 18:45:06.662 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 18:45:06.662 +03:00 [INF] Hosting environment: Development
+2021-07-09 18:45:06.663 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 18:45:07.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 18:45:08.172 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 230.8756ms
+2021-07-09 18:45:08.582 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 18:45:08.930 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 347.7744ms
+2021-07-09 19:16:16.795 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 19:16:16.837 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 19:16:16.838 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 19:16:16.838 +03:00 [INF] Hosting environment: Development
+2021-07-09 19:16:16.839 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 19:16:20.998 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 19:16:21.268 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 274.1830ms
+2021-07-09 19:16:22.316 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 19:16:22.556 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 239.7007ms
+2021-07-09 20:12:39.320 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 20:12:39.361 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 20:12:39.361 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 20:12:39.361 +03:00 [INF] Hosting environment: Development
+2021-07-09 20:12:39.361 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 20:12:47.079 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 20:12:47.371 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 300.6303ms
+2021-07-09 20:12:48.385 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 20:12:48.727 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 340.2212ms
+2021-07-09 20:15:18.206 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-09 20:15:18.266 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-09 20:15:18.266 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-09 20:15:18.273 +03:00 [INF] Hosting environment: Development
+2021-07-09 20:15:18.274 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-09 20:15:20.474 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-09 20:15:20.689 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 219.4170ms
+2021-07-09 20:15:21.836 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-09 20:15:22.411 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 567.8178ms
+2021-07-09 20:16:14.454 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/metrics - -
+2021-07-09 20:16:14.597 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 20:16:14.662 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Entities.Metric] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-09 20:16:14.672 +03:00 [INF] GET Request: GetAllMetrics
+2021-07-09 20:16:14.689 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2+ValueCollection[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GlobusObservability.Core.Entities.Metric, GlobusObservability.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-09 20:16:14.764 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 91.3145ms
+2021-07-09 20:16:14.772 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-09 20:16:14.772 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/metrics - - - 200 - application/json;+charset=utf-8 318.9440ms

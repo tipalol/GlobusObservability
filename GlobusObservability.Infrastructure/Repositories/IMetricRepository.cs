@@ -26,7 +26,7 @@ namespace GlobusObservability.Infrastructure.Repositories
         /// </summary>
         /// <param name="metric">Metric</param>
         public void AddMetric(Metric metric);
-        
+
         /// <summary>
         /// Adds raw xml metric which will be converted to json metric
         /// </summary>

@@ -9,18 +9,16 @@ namespace GlobusObservability.Rest.Workers
 {
     public class MetricsWatcher : BackgroundService
     {
-        private const string PathToGlobusMetrics = "metrics/";
-        
         private readonly IMetricRepository _metricRepository;
         private readonly FileSystemWatcher _watcher;
 
-        public MetricsWatcher(IMetricRepository repository)
+        public MetricsWatcher(IMetricRepository repository, string metricsPath = "metrics/")
         {
             _metricRepository = repository;
-            
+
             _watcher = new FileSystemWatcher() 
             { 
-                Path = PathToGlobusMetrics, 
+                Path = metricsPath, 
                 IncludeSubdirectories = true,
                 NotifyFilter = NotifyFilters.Attributes |
                                NotifyFilters.CreationTime |  
@@ -35,6 +33,7 @@ namespace GlobusObservability.Rest.Workers
 
             _watcher.Changed += OnFileChanged;
             _watcher.Created += OnFileCreated;
+            _watcher.EnableRaisingEvents = true;
         }
         
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
