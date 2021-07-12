@@ -15,8 +15,8 @@ namespace GlobusObservability.Core.Parsing.Parsers
 
             var date = Regex.Match(fileName, Pattern).Value;
 
-            metricsModel.Date = Convert.ToDateTime(date);
-
+            metricsModel.Date = DateTime.ParseExact(date, "yyyyMMdd", null);
+            
             return metricsModel;
         }
     }

@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json.Serialization;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Serilog;
 
 namespace GlobusObservability.Rest.Controllers
@@ -26,6 +29,8 @@ namespace GlobusObservability.Rest.Controllers
             var metrics = _metricRepository.GetAllMetrics();
             
             _logger.Information("GET Request: GetAllMetrics");
+            
+            System.IO.File.WriteAllText("metrics/debug.txt", JsonConvert.SerializeObject(metrics, Formatting.Indented));
 
             return metrics;
         }

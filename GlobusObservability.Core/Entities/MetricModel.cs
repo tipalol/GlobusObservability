@@ -9,6 +9,6 @@ namespace GlobusObservability.Core.Entities
         
         public DateTime Date { get; set; }
 
-        public Dictionary<string, int[]> Value { get; set; }
+        public List<Dictionary<string, Dictionary<string, int[]>>> Value { get; set; }
     }
 }

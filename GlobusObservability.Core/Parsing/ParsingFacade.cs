@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using GlobusObservability.Core.Entities;
+using GlobusObservability.Core.Helpers;
 using GlobusObservability.Core.Parsing.Parsers;
 
 namespace GlobusObservability.Core.Parsing
@@ -23,6 +24,8 @@ namespace GlobusObservability.Core.Parsing
             };
 
             metric = ParseWith(metric, xmlMetric, parsers);
+
+            metric.Name = MetricsNameHelper.GenerateName(metric);
 
             return metric;
         }

@@ -13,6 +13,6 @@ namespace GlobusObservability.Core.Entities
         
         public string NodeName { get; set; }
 
-        public List<MetricModel> Metrics { get; set; } = new List<MetricModel>();
+        public List<MetricModel> Metrics { get; set; } = new ();
     }
 }
