@@ -993,6 +993,9 @@
       "GlobusObservability.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
         "compile": {
           "bin/placeholder/GlobusObservability.Core.dll": {}
         },

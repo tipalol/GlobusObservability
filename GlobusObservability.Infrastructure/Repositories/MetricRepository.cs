@@ -25,7 +25,10 @@ namespace GlobusObservability.Infrastructure.Repositories
         }
 
         public void AddMetric(Metric metric)
-            => _metrics.Add(metric.Date.ToString("G"), metric);
+        {
+            if (!_metrics.ContainsKey(metric.Date.ToString("G")))
+                _metrics.Add(metric.Date.ToString("G"), metric);
+        }
 
         public void AddRawXml(XmlMetricDto xmlMetric)
         {

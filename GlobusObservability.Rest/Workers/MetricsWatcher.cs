@@ -33,7 +33,6 @@ namespace GlobusObservability.Rest.Workers
 
             _watcher.Changed += OnFileChanged;
             _watcher.Created += OnFileCreated;
-            _watcher.EnableRaisingEvents = true;
         }
         
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)

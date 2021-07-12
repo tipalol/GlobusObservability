@@ -1008,6 +1008,9 @@
         }
       },
       "GlobusObservability.Core/1.0.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
         "runtime": {
           "GlobusObservability.Core.dll": {}
         },

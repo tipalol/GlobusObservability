@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nM9Urn4Mvw362sVpmxftnV9+mmu66L3yiSRomSr1qEM8uJucesxpXMpunNsZ9lxNr66cOd3uf5pR2uFz94P70A==",
+  "dgSpecHash": "wB083nVL9/EArhrmymb+keeH6mismN9y5mchbmY7lZ/iAWyk2gbTxTb+oSFSxJD9ZNK+bcy/xlIlfpuwVIskhQ==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

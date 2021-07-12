@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace GlobusObservability.Core.Entities
 {
@@ -8,6 +9,8 @@ namespace GlobusObservability.Core.Entities
         
         public DateTime Date { get; set; }
         
-        public float[] Value { get; set; }
+        public string SubNetwork { get; set; }
+        
+        public Dictionary<string, string> Value { get; set; }
     }
 }
