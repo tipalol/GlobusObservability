@@ -21,7 +21,7 @@ namespace GlobusObservability.Rest.Controllers
         }
 
         [HttpGet("metrics")]
-        public IEnumerable<Metric> GetAllMetrics()
+        public IEnumerable<JsonMetricsModel> GetAllMetrics()
         {
             var metrics = _metricRepository.GetAllMetrics();
             
@@ -31,7 +31,7 @@ namespace GlobusObservability.Rest.Controllers
         }
         
         [HttpGet("metricsInPeriod")]
-        public IEnumerable<Metric> GetMetricsInPeriod(DateTime from, DateTime to)
+        public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to)
         {
             var metrics = _metricRepository.GetMetricsInPeriod(from, to);
             

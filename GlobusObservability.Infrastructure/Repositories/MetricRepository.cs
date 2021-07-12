@@ -7,27 +7,27 @@ namespace GlobusObservability.Infrastructure.Repositories
 {
     public class MetricRepository : IMetricRepository
     {
-        private readonly Dictionary<string, Metric> _metrics;
+        private readonly Dictionary<string, JsonMetricsModel> _metrics;
         private readonly IMetricConverterService _metricConverter;
 
         public MetricRepository(IMetricConverterService metricConverter)
         {
             _metricConverter = metricConverter;
-            _metrics = new Dictionary<string, Metric>();
+            _metrics = new Dictionary<string, JsonMetricsModel>();
         }
         
-        public IEnumerable<Metric> GetAllMetrics()
+        public IEnumerable<JsonMetricsModel> GetAllMetrics()
             => _metrics.Values;
 
-        public IEnumerable<Metric> GetMetricsInPeriod(DateTime @from, DateTime to)
+        public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime @from, DateTime to)
         {
             throw new NotImplementedException();
         }
 
-        public void AddMetric(Metric metric)
+        public void AddMetric(JsonMetricsModel metricModel)
         {
-            if (!_metrics.ContainsKey(metric.Date.ToString("G")))
-                _metrics.Add(metric.Date.ToString("G"), metric);
+            if (!_metrics.ContainsKey(metricModel.Name))
+                _metrics.Add(metricModel.Name, metricModel);
         }
 
         public void AddRawXml(XmlMetricDto xmlMetric)

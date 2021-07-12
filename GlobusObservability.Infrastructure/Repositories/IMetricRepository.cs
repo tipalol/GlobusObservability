@@ -11,7 +11,7 @@ namespace GlobusObservability.Infrastructure.Repositories
         /// Gets all metrics from metrics repository
         /// </summary>
         /// <returns>Enumerable of metrics</returns>
-        public IEnumerable<Metric> GetAllMetrics();
+        public IEnumerable<JsonMetricsModel> GetAllMetrics();
         
         /// <summary>
         /// Gets metrics in specified period
@@ -19,16 +19,16 @@ namespace GlobusObservability.Infrastructure.Repositories
         /// <param name="from">Start date</param>
         /// <param name="to">End date</param>
         /// <returns>Enumerable of metrics</returns>
-        public IEnumerable<Metric> GetMetricsInPeriod(DateTime from, DateTime to);
+        public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to);
 
         /// <summary>
-        /// Adds new metric to repository
+        /// Adds new metricModel to repository
         /// </summary>
-        /// <param name="metric">Metric</param>
-        public void AddMetric(Metric metric);
+        /// <param name="metricModel">MetricModel</param>
+        public void AddMetric(JsonMetricsModel metricModel);
 
         /// <summary>
-        /// Adds raw xml metric which will be converted to json metric
+        /// Adds raw xml metricModel which will be converted to json metricModel
         /// </summary>
         /// <param name="xmlMetric"></param>
         public void AddRawXml(XmlMetricDto xmlMetric);

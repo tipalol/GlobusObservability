@@ -4,6 +4,6 @@ namespace GlobusObservability.Core.Services
 {
     public interface IMetricConverterService
     {
-        public Metric ConvertToJson(XmlMetricDto xml);
+        public JsonMetricsModel ConvertToJson(XmlMetricDto xml);
     }
 }
