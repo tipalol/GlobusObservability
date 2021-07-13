@@ -71,10 +71,9 @@ namespace GlobusObservability.Core.Parsing.Parsers
                     var measureValues = 
                     (
                         from XmlNode valueNode in measureBlock.ChildNodes 
-                        select (valueNode.InnerText?.Split(','), valueNode)
-                        into splittedValues 
-                        select (Array.ConvertAll(splittedValues.Item1, int.Parse), splittedValues) into measValues 
-                        select (Convert.ToInt32(measValues.splittedValues.valueNode.Attributes?[MeasureTypeProperty]?.InnerText), measValues)
+                        let values = valueNode.InnerText?.Split(',')
+                        select (Array.ConvertAll(values, int.Parse), valueNode) into measValues 
+                        select (Convert.ToInt32(measValues.valueNode.Attributes?[MeasureTypeProperty]?.InnerText), measValues.Item1)
                     ).ToList();
 
                     // Join measureTypes list with measureValues to specidy types
@@ -82,7 +81,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
                     var typedMetrics = 
                         measureValues.ToDictionary(measure 
                             => measureTypes[measure.Item1], measure 
-                            => measure.measValues.Item1);
+                            => measure.Item2);
                     
                     nodeMetrics.Add(measureNode, typedMetrics);
                 }

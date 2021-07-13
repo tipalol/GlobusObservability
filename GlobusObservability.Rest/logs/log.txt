@@ -753,3 +753,45 @@ pmUnitTemperatureLevel0,0,00,0,00,0,00,0,00,0,00,0,00,0,0ifHCInBroadcastPktsifHC
 2021-07-13 00:14:38.331 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 1174.2517ms
 2021-07-13 00:14:38.443 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
 2021-07-13 00:14:38.444 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/metrics - - - 200 - application/json;+charset=utf-8 1749.8452ms
+2021-07-13 00:34:33.492 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-13 00:34:33.625 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-13 00:34:33.629 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 00:34:33.629 +03:00 [INF] Hosting environment: Development
+2021-07-13 00:34:33.629 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-13 00:34:36.658 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-13 00:34:36.893 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 242.7345ms
+2021-07-13 00:34:38.027 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-13 00:34:38.372 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 345.7601ms
+2021-07-13 00:35:08.416 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/metrics - -
+2021-07-13 00:35:08.629 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:35:08.708 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Entities.JsonMetricsModel] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-13 00:35:08.720 +03:00 [INF] GET Request: GetAllMetrics
+2021-07-13 00:35:09.249 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2+ValueCollection[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GlobusObservability.Core.Entities.JsonMetricsModel, GlobusObservability.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-13 00:35:09.415 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 689.514ms
+2021-07-13 00:35:09.424 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:35:09.425 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/metrics - - - 200 - application/json;+charset=utf-8 1010.6799ms
+2021-07-13 00:36:58.911 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-13 00:36:59.041 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-13 00:36:59.077 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-13 00:36:59.077 +03:00 [INF] Hosting environment: Development
+2021-07-13 00:36:59.081 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-13 00:37:07.262 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-13 00:37:07.590 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 341.5465ms
+2021-07-13 00:37:08.251 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-13 00:37:08.693 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 442.0883ms
+2021-07-13 00:37:16.964 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/metrics - -
+2021-07-13 00:37:17.132 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:37:17.300 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Entities.JsonMetricsModel] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-13 00:37:17.314 +03:00 [INF] GET Request: GetAllMetrics
+2021-07-13 00:37:17.340 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2+ValueCollection[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GlobusObservability.Core.Entities.JsonMetricsModel, GlobusObservability.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-13 00:37:17.414 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 90.9591ms
+2021-07-13 00:37:17.431 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:37:17.431 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/metrics - - - 200 - application/json;+charset=utf-8 467.6981ms
+2021-07-13 00:37:43.010 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/metrics - -
+2021-07-13 00:37:43.033 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:37:43.052 +03:00 [INF] Route matched with {action = "GetAllMetrics", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[GlobusObservability.Core.Entities.JsonMetricsModel] GetAllMetrics() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-13 00:37:43.061 +03:00 [INF] GET Request: GetAllMetrics
+2021-07-13 00:37:43.069 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2+ValueCollection[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GlobusObservability.Core.Entities.JsonMetricsModel, GlobusObservability.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-13 00:37:43.191 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest) in 138.6586ms
+2021-07-13 00:37:43.192 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.GetAllMetrics (GlobusObservability.Rest)'
+2021-07-13 00:37:43.192 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/metrics - - - 200 - application/json;+charset=utf-8 185.6429ms

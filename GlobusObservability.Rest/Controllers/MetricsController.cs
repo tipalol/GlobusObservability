@@ -30,7 +30,7 @@ namespace GlobusObservability.Rest.Controllers
             
             _logger.Information("GET Request: GetAllMetrics");
             
-            System.IO.File.WriteAllText("metrics/debug.txt", JsonConvert.SerializeObject(metrics, Formatting.Indented));
+            //System.IO.File.WriteAllText("metrics/debug.txt", JsonConvert.SerializeObject(metrics, Formatting.Indented));
 
             return metrics;
         }
