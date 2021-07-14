@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Infrastructure.Repositories;
 using GlobusObservability.Rest.Helpers;
@@ -24,6 +25,16 @@ namespace GlobusObservability.Rest.Controllers
             _logger = logger;
             _configuration = config;
             _metricRepository = metricRepository;
+        }
+
+        [HttpGet("parseAndPush")]
+        public async Task ParseAllAndPushAsync(bool onlyNew)
+        {
+            var metrics = _metricRepository.LoadAllMetrics(onlyNew);
+            
+            var paths = MetricsPushToFileHelper.Push(metrics, _configuration);
+
+            await PushGatewayHelper.PushMetrics(metrics);
         }
         
         [HttpGet("parse")]

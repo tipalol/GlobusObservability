@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t6EK0jCHLzbrNY1DTyOYU1Hqa7inWxOeuwiwoas5gmVCy+WJR23dKGRSsy7t3z7qNH2mm59sZDhsUiI2TnRQFA==",
+  "dgSpecHash": "FyBlPqalySqrmp1B//OBTGwlVcJiQceknety1d10LsBpLC/auTo1Minai5oYDzJrWgo/ShLns4Qj9rZ5ivJuQw==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,9 @@
     "/Users/sorokindmitrij/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client/4.3.0/prometheus.client.4.3.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client.abstractions/4.3.0/prometheus.client.abstractions.4.3.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client.metricpusher/2.1.0/prometheus.client.metricpusher.2.1.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog.aspnetcore/4.1.0/serilog.aspnetcore.4.1.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0iNnECTJrcBrWZFH9g0WXUQ8eFiusGMWg+VMH253RH7qqUTSDevMz4bkfetcRT5jJms7LOPqKS1H8QSvNxxkIQ==",
+  "dgSpecHash": "fg+ySi02izc1BU9m2XVPgqiaCsirl7V052s2cTnrAgYdQJsbS9ADaYwnCLp96xjV7Gew5W0USH1Ki+6hQSYFIw==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/GlobusObservability.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,9 @@
     "/Users/sorokindmitrij/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/nunit/3.13.1/nunit.3.13.1.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/nunit3testadapter/3.17.0/nunit3testadapter.3.17.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client/4.3.0/prometheus.client.4.3.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client.abstractions/4.3.0/prometheus.client.abstractions.4.3.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus.client.metricpusher/2.1.0/prometheus.client.metricpusher.2.1.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog.aspnetcore/4.1.0/serilog.aspnetcore.4.1.0.nupkg.sha512",

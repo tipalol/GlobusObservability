@@ -281,6 +281,39 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Prometheus.Client/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Prometheus.Client.Abstractions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {}
+        }
+      },
+      "Prometheus.Client.Abstractions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {}
+        }
+      },
+      "Prometheus.Client.MetricPusher/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Prometheus.Client": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.MetricPusher.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.MetricPusher.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1438,6 +1471,54 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Prometheus.Client/4.3.0": {
+      "sha512": "fnEkTUJLYfrDVh3CzYF8uXMpXYHzrPK+wio4xIw7eMwFWEpRerCc6woJSZsg/6tzkLjOxT3HUCjPlS0AWx9ezA==",
+      "type": "package",
+      "path": "prometheus.client/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/Prometheus.Client.dll",
+        "lib/netstandard2.0/Prometheus.Client.xml",
+        "lib/netstandard2.1/Prometheus.Client.dll",
+        "lib/netstandard2.1/Prometheus.Client.xml",
+        "prometheus.client.4.3.0.nupkg.sha512",
+        "prometheus.client.nuspec"
+      ]
+    },
+    "Prometheus.Client.Abstractions/4.3.0": {
+      "sha512": "5Y91JuGzzA5KZg3VtOr5xNzNXTTs2Noka1K2GcgaWtPYyUOkcCvkKo2673WlWKLFnsHHk0O0bSU+T7gtDT14hw==",
+      "type": "package",
+      "path": "prometheus.client.abstractions/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/Prometheus.Client.Abstractions.dll",
+        "lib/netstandard2.0/Prometheus.Client.Abstractions.xml",
+        "lib/netstandard2.1/Prometheus.Client.Abstractions.dll",
+        "lib/netstandard2.1/Prometheus.Client.Abstractions.xml",
+        "prometheus.client.abstractions.4.3.0.nupkg.sha512",
+        "prometheus.client.abstractions.nuspec"
+      ]
+    },
+    "Prometheus.Client.MetricPusher/2.1.0": {
+      "sha512": "fsEse9V69/mLl6+HMPXfNSz4jcJyrM1L/rvOVWCrfWsZqpCpC/t3u9/tMYxTLDI/7VX16S4VE3xvo00Nf/lxzA==",
+      "type": "package",
+      "path": "prometheus.client.metricpusher/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/Prometheus.Client.MetricPusher.dll",
+        "lib/netstandard2.0/Prometheus.Client.MetricPusher.xml",
+        "lib/netstandard2.1/Prometheus.Client.MetricPusher.dll",
+        "lib/netstandard2.1/Prometheus.Client.MetricPusher.xml",
+        "prometheus.client.metricpusher.2.1.0.nupkg.sha512",
+        "prometheus.client.metricpusher.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -3845,6 +3926,7 @@
     "net5.0": [
       "GlobusObservability.Core >= 1.0.0",
       "GlobusObservability.Infrastructure >= 1.0.0",
+      "Prometheus.Client.MetricPusher >= 2.1.0",
       "Serilog >= 2.10.0",
       "Serilog.AspNetCore >= 4.1.0",
       "Serilog.Sinks.Console >= 3.1.1",
@@ -3896,6 +3978,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Prometheus.Client.MetricPusher": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Serilog": {
             "target": "Package",
             "version": "[2.10.0, )"

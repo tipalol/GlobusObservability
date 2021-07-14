@@ -45,19 +45,19 @@ namespace GlobusObservability.Core.Parsing.Parsers
             if (node.Name == MeasureBlockKey)
             {
                 // Parse metric date
-                var metricDate = "";
-                foreach (XmlNode dateExpected in node.ChildNodes)
+                var metricDuration = string.Empty;
+                foreach (XmlNode durationExpected in node.ChildNodes)
                 {
-                    if (dateExpected.Name != MeasureDurationBlock) continue;
+                    if (durationExpected.Name != MeasureDurationBlock) continue;
                     
-                    metricDate = dateExpected.Attributes?[MeasureDurationProperty]?.InnerText;
+                    metricDuration = durationExpected.Attributes?[MeasureDurationProperty]?.InnerText;
                     break;
                 }
                 
                 var metric = new MetricModel()
                 {
                     Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
-                    Duration = metricDate,
+                    Duration = metricDuration,
                     Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
                 };
 
