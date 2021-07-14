@@ -35,6 +35,7 @@
         "dependencies": {
           "GlobusObservability.Core": "1.0.0",
           "GlobusObservability.Infrastructure": "1.0.0",
+          "Prometheus.Client.MetricPusher": "2.1.0",
           "Serilog": "2.10.0",
           "Serilog.AspNetCore": "4.1.0",
           "Serilog.Sinks.Console": "3.1.1",
@@ -496,6 +497,45 @@
         },
         "compile": {
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prometheus.Client/4.3.0": {
+        "dependencies": {
+          "Prometheus.Client.Abstractions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {}
+        }
+      },
+      "Prometheus.Client.Abstractions/4.3.0": {
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {}
+        }
+      },
+      "Prometheus.Client.MetricPusher/2.1.0": {
+        "dependencies": {
+          "Prometheus.Client": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.MetricPusher.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.MetricPusher.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -2876,6 +2916,27 @@
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "Prometheus.Client/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fnEkTUJLYfrDVh3CzYF8uXMpXYHzrPK+wio4xIw7eMwFWEpRerCc6woJSZsg/6tzkLjOxT3HUCjPlS0AWx9ezA==",
+      "path": "prometheus.client/4.3.0",
+      "hashPath": "prometheus.client.4.3.0.nupkg.sha512"
+    },
+    "Prometheus.Client.Abstractions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Y91JuGzzA5KZg3VtOr5xNzNXTTs2Noka1K2GcgaWtPYyUOkcCvkKo2673WlWKLFnsHHk0O0bSU+T7gtDT14hw==",
+      "path": "prometheus.client.abstractions/4.3.0",
+      "hashPath": "prometheus.client.abstractions.4.3.0.nupkg.sha512"
+    },
+    "Prometheus.Client.MetricPusher/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fsEse9V69/mLl6+HMPXfNSz4jcJyrM1L/rvOVWCrfWsZqpCpC/t3u9/tMYxTLDI/7VX16S4VE3xvo00Nf/lxzA==",
+      "path": "prometheus.client.metricpusher/2.1.0",
+      "hashPath": "prometheus.client.metricpusher.2.1.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

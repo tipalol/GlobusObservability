@@ -1220,3 +1220,47 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/
 2021-07-14 13:42:23.719 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest) in 785.2858ms
 2021-07-14 13:42:23.734 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
 2021-07-14 13:42:23.735 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - - - 200 - application/json;+charset=utf-8 1034.3586ms
+2021-07-14 15:36:58.184 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-14 15:36:58.218 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-14 15:36:58.218 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 15:36:58.218 +03:00 [INF] Hosting environment: Development
+2021-07-14 15:36:58.219 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-14 15:37:04.605 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-14 15:37:04.870 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 273.0514ms
+2021-07-14 15:37:06.535 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-14 15:37:07.069 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 524.6724ms
+2021-07-14 15:37:15.548 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/parseAndPush?onlyNew=false - -
+2021-07-14 15:37:15.829 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAllAndPushAsync (GlobusObservability.Rest)'
+2021-07-14 15:37:16.009 +03:00 [INF] Route matched with {action = "ParseAllAndPush", controller = "Metrics"}. Executing controller action with signature System.Threading.Tasks.Task ParseAllAndPushAsync(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-14 15:37:16.114 +03:00 [INF] Loading metrics from metrics/
+2021-07-14 15:37:16.217 +03:00 [INF] Xml loaded
+2021-07-14 15:37:16.217 +03:00 [INF] Parsing started. Xml files to parse - 1
+2021-07-14 15:37:16.509 +03:00 [INF] Xml parsed A20210528.0900+0300-0915+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587657_statsfile 12.19.18 12.32.15 13.04.0l_parsed.xml
+2021-07-14 15:37:17.066 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAllAndPushAsync (GlobusObservability.Rest) in 1046.9381ms
+2021-07-14 15:37:17.082 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAllAndPushAsync (GlobusObservability.Rest)'
+2021-07-14 15:37:17.090 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PutAsync(Uri requestUri, HttpContent content, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PutAsync(String requestUri, HttpContent content)
+   at GlobusObservability.Rest.Helpers.PushGatewayHelper.PushMetrics(IEnumerable`1 metrics) in /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/Helpers/PushGatewayHelper.cs:line 24
+   at GlobusObservability.Rest.Controllers.MetricsController.ParseAllAndPushAsync(Boolean onlyNew) in /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/Controllers/MetricsController.cs:line 37
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-14 15:37:17.298 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parseAndPush?onlyNew=false - - - 500 - text/plain 1752.4158ms

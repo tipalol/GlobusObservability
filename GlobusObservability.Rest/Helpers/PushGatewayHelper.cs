@@ -8,13 +8,14 @@ namespace GlobusObservability.Rest.Helpers
 {
     public static class PushGatewayHelper
     {
+        private const string Protocol = "http";
         private const string Ip = "172.24.217.5";
         private const string Port = "9091";
         private const string Job = "StoneWorkerForThreeDays";
         private const string Instance = "Clown";
 
         private static string Endpoint => $"{Ip}:{Port}";
-        private static string Uri => $"{Endpoint}/job/{Job}/instance{Instance}";
+        private static string Uri => $"{Protocol}://{Endpoint}/job/{Job}/instance{Instance}";
 
         public static async Task PushMetrics(IEnumerable<JsonMetricsModel> metrics)
         {
