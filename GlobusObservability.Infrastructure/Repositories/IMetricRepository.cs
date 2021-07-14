@@ -39,5 +39,7 @@ namespace GlobusObservability.Infrastructure.Repositories
         /// <param name="onlyNew">Load only unparsed files</param>
         /// <returns>Collection of json metrics</returns>
         public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew);
+
+        public void Clear();
     }
 }

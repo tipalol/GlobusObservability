@@ -41,6 +41,10 @@ namespace GlobusObservability.Rest.Controllers
         {
             var metrics = _metricRepository.GetAllMetrics();
             
+            MetricsPushToFileHelper.Push(metrics, _configuration);
+            
+            _metricRepository.Clear();
+            
             _logger.Information("GET Request: GetAllMetrics");
             
             return metrics;
@@ -51,6 +55,8 @@ namespace GlobusObservability.Rest.Controllers
         {
             var metrics = _metricRepository.GetMetricsInPeriod(from, to);
             
+            MetricsPushToFileHelper.Push(metrics, _configuration);
+
             _logger.Information($"GET Request: GetMetricsInPeriod {from} {to}", from, to);
 
             return metrics;

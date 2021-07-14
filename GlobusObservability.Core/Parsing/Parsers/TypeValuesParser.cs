@@ -39,10 +39,20 @@ namespace GlobusObservability.Core.Parsing.Parsers
             // <measInfo> block
             if (node.Name == MeasureBlockKey)
             {
+                // Parse metric date
+                DateTime metricDate = metricModel.Date;
+                foreach (XmlNode dateExpected in node.ChildNodes)
+                {
+                    if (dateExpected.Name != "granPeriod") continue;
+                    
+                    metricDate = Convert.ToDateTime(dateExpected.Attributes?["endTime"]?.InnerText);
+                    break;
+                }
+                
                 var metric = new MetricModel()
                 {
                     Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
-                    Date = metricModel.Date,
+                    Date = metricDate,
                     Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
                 };
 
