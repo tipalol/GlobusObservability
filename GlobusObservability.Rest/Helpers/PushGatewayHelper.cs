@@ -21,6 +21,8 @@ namespace GlobusObservability.Rest.Helpers
         {
             var query = id + "{" + labels + "} " + value;
 
+            HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, Uri);
+            
             await _client.PostAsync(Uri, new StringContent(query));
         }
         

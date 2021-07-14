@@ -37,6 +37,8 @@ namespace GlobusObservability.Rest.Controllers
             await PushGatewayHelper.PushMetrics(metrics);
         }
         
+        
+        
         [HttpGet("parse")]
         public IEnumerable<string> ParseAll(bool onlyNew)
         {
