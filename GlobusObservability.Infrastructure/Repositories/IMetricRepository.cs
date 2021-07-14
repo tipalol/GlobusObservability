@@ -32,5 +32,12 @@ namespace GlobusObservability.Infrastructure.Repositories
         /// </summary>
         /// <param name="xmlMetric"></param>
         public void AddRawXml(XmlMetricDto xmlMetric);
+
+        /// <summary>
+        /// Loads xml metrics from IMetricProvider, then convert them to json files
+        /// </summary>
+        /// <param name="onlyNew">Load only unparsed files</param>
+        /// <returns>Collection of json metrics</returns>
+        public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew);
     }
 }

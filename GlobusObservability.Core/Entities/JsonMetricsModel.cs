@@ -9,8 +9,8 @@ namespace GlobusObservability.Core.Entities
         
         public DateTime Date { get; set; }
         
-        public string SubNetworks { get; set; }
-        
+        public string[] SubNetworks { get; set; }
+
         public string NodeName { get; set; }
 
         public List<MetricModel> Metrics { get; set; } = new ();

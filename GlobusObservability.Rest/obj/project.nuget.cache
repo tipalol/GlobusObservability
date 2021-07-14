@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "LxajAH9N8jaPG6yfToxhyFVdKvIrInDeBqMPuLLZHmogwRq4JqRoZ10ChmU9njxL6Y0jP+ZX2vbHlW3K9jMxEg==",
+  "dgSpecHash": "t6EK0jCHLzbrNY1DTyOYU1Hqa7inWxOeuwiwoas5gmVCy+WJR23dKGRSsy7t3z7qNH2mm59sZDhsUiI2TnRQFA==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/GlobusObservability.Rest.csproj",
   "expectedPackageFiles": [
     "/Users/sorokindmitrij/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.dotnet.platformabstractions/2.0.4/microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration/2.0.0/microsoft.extensions.configuration.2.0.0.nupkg.sha512",
-    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.8/microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration.binder/2.0.0/microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

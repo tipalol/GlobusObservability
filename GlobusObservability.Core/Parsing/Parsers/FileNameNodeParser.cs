@@ -6,7 +6,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
 {
     public class FileNameNodeParser : IParser
     {
-        private const string Pattern = "MeContext=\\S*";
+        private const string Pattern = "MeContext=\\S*_";
         
         public JsonMetricsModel ParseValue(JsonMetricsModel metricsModel, XmlMetricDto xml)
         {
@@ -15,6 +15,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
             var node = Regex.Match(fileName, Pattern).Value;
 
             node = node.Replace("MeContext=", string.Empty);
+            node = node.Replace("_", string.Empty);
 
             metricsModel.NodeName = node;
 

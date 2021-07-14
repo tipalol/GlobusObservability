@@ -1,6 +1,5 @@
 using System;
 using System.Text.RegularExpressions;
-using System.Xml;
 using GlobusObservability.Core.Entities;
 
 namespace GlobusObservability.Core.Parsing.Parsers
@@ -15,7 +14,15 @@ namespace GlobusObservability.Core.Parsing.Parsers
 
             var date = Regex.Match(fileName, Pattern).Value;
 
-            metricsModel.Date = DateTime.ParseExact(date, "yyyyMMdd", null);
+            try
+            {
+                metricsModel.Date = DateTime.ParseExact(date, "yyyyMMdd", null);
+            }
+            catch (Exception e)
+            {
+                throw new Exception($"Cant parse date from file name. File name: {fileName} xml: {xml.FileContent.Length} json: {metricsModel}");
+            }
+           
             
             return metricsModel;
         }

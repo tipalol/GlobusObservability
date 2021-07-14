@@ -42,3 +42,5 @@
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Core.pdb
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Infrastructure.dll
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/GlobusObservability.Infrastructure.pdb
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/parsed/2021-07-14 00:00:00Z2021-05-28 00:00:00Z-GL587657-ONRM_ROOT_MO,eNodeB_PNZ,.json
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest/bin/Debug/net5.0/parsed/2021-07-14 00:00:00Z/2021-05-28 00:00:00Z-GL587657-ONRM_ROOT_MO,eNodeB_PNZ,.json

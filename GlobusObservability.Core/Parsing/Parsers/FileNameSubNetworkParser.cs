@@ -1,5 +1,4 @@
 using System.Text.RegularExpressions;
-using System.Xml;
 using GlobusObservability.Core.Entities;
 
 namespace GlobusObservability.Core.Parsing.Parsers
@@ -19,7 +18,9 @@ namespace GlobusObservability.Core.Parsing.Parsers
             // removing last comma
             subNetworks = subNetworks.Remove(subNetworks.Length - 1);
 
-            metricsModel.SubNetworks = subNetworks;
+            var networks = subNetworks.Split(',');
+
+            metricsModel.SubNetworks = networks;
 
             return metricsModel;
         }

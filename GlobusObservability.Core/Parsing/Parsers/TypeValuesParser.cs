@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using GlobusObservability.Core.Entities;
+using GlobusObservability.Core.Helpers;
 
 namespace GlobusObservability.Core.Parsing.Parsers
 {
@@ -40,7 +41,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
             {
                 var metric = new MetricModel()
                 {
-                    Id = node.Attributes?[MeasureIdProperty]?.Value,
+                    Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
                     Date = metricModel.Date,
                     Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
                 };

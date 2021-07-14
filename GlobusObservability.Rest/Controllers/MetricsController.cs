@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text.Json.Serialization;
+using System.Linq;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Infrastructure.Repositories;
+using GlobusObservability.Rest.Helpers;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
+using Microsoft.Extensions.Configuration;
 using Serilog;
+using Newtonsoft.Json;
 
 namespace GlobusObservability.Rest.Controllers
 {
@@ -15,12 +16,24 @@ namespace GlobusObservability.Rest.Controllers
     public class MetricsController : ControllerBase
     {
         private readonly ILogger _logger;
+        private readonly IConfiguration _configuration;
         private readonly IMetricRepository _metricRepository;
 
-        public MetricsController(ILogger logger, IMetricRepository metricRepository)
+        public MetricsController(ILogger logger, IMetricRepository metricRepository, IConfiguration config)
         {
             _logger = logger;
+            _configuration = config;
             _metricRepository = metricRepository;
+        }
+        
+        [HttpGet("parse")]
+        public IEnumerable<string> ParseAll(bool onlyNew)
+        {
+            var metrics = _metricRepository.LoadAllMetrics(onlyNew);
+            
+            var paths = MetricsPushToFileHelper.Push(metrics, _configuration);
+
+            return paths;
         }
 
         [HttpGet("metrics")]
@@ -30,11 +43,9 @@ namespace GlobusObservability.Rest.Controllers
             
             _logger.Information("GET Request: GetAllMetrics");
             
-            //System.IO.File.WriteAllText("metrics/debug.txt", JsonConvert.SerializeObject(metrics, Formatting.Indented));
-
             return metrics;
         }
-        
+
         [HttpGet("metricsInPeriod")]
         public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to)
         {

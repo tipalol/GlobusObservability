@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Infrastructure.Repositories;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace GlobusObservability.Rest.Workers
@@ -12,8 +13,10 @@ namespace GlobusObservability.Rest.Workers
         private readonly IMetricRepository _metricRepository;
         private readonly FileSystemWatcher _watcher;
 
-        public MetricsWatcher(IMetricRepository repository, string metricsPath = "metrics/")
+        public MetricsWatcher(IMetricRepository repository, IConfiguration config)
         {
+            var metricsPath = config.GetSection("Parsing")["MetricsRootFolder"];
+            
             _metricRepository = repository;
 
             _watcher = new FileSystemWatcher() 
@@ -55,6 +58,11 @@ namespace GlobusObservability.Rest.Workers
             var xmlMetric = new XmlMetricDto() {FileName = fileName, FileContent = xml};
             
             _metricRepository.AddRawXml(xmlMetric);
+
+            var newPath = e.FullPath.Remove(e.FullPath.Length - 1 - 4, 4)
+                          + "_parsed.xml";
+            
+            File.Move(e.FullPath, newPath, true);
         }
         
         private void OnFileChanged(object sender, FileSystemEventArgs e)
