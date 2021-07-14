@@ -1160,3 +1160,63 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/
 2021-07-14 12:53:19.495 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest) in 903.3653ms
 2021-07-14 12:53:19.503 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
 2021-07-14 12:53:19.504 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - - - 200 - application/json;+charset=utf-8 1126.6847ms
+2021-07-14 13:36:14.070 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-14 13:36:14.121 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-14 13:36:14.122 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 13:36:14.122 +03:00 [INF] Hosting environment: Development
+2021-07-14 13:36:14.122 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-14 13:36:18.183 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-14 13:36:18.465 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 289.3902ms
+2021-07-14 13:36:19.567 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-14 13:36:19.895 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 327.8364ms
+2021-07-14 13:36:32.787 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - -
+2021-07-14 13:36:32.917 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:36:33.048 +03:00 [INF] Route matched with {action = "ParseAll", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] ParseAll(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-14 13:36:33.101 +03:00 [INF] Loading metrics from metrics/
+2021-07-14 13:36:33.134 +03:00 [INF] Xml loaded
+2021-07-14 13:36:33.134 +03:00 [INF] Parsing started. Xml files to parse - 1
+2021-07-14 13:36:33.304 +03:00 [INF] Xml parsed A20210528.0900+0300-0915+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587657_statsfile 12.19.18 12.32.15 13.04.0l_parsed.xml
+2021-07-14 13:36:33.756 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-07-14 13:36:33.799 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest) in 731.0595ms
+2021-07-14 13:36:33.809 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:36:33.810 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - - - 200 - application/json;+charset=utf-8 1023.4612ms
+2021-07-14 13:38:31.425 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-14 13:38:31.488 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-14 13:38:31.491 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 13:38:31.491 +03:00 [INF] Hosting environment: Development
+2021-07-14 13:38:31.491 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-14 13:38:33.111 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-14 13:38:33.499 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 406.3096ms
+2021-07-14 13:38:34.092 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-14 13:38:34.618 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 526.6276ms
+2021-07-14 13:38:41.382 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - -
+2021-07-14 13:38:41.477 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:38:41.535 +03:00 [INF] Route matched with {action = "ParseAll", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] ParseAll(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-14 13:38:41.584 +03:00 [INF] Loading metrics from metrics/
+2021-07-14 13:38:41.629 +03:00 [INF] Xml loaded
+2021-07-14 13:38:41.630 +03:00 [INF] Parsing started. Xml files to parse - 1
+2021-07-14 13:38:41.791 +03:00 [INF] Xml parsed A20210528.0900+0300-0915+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587657_statsfile 12.19.18 12.32.15 13.04.0l_parsed.xml
+2021-07-14 13:38:42.256 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-07-14 13:38:42.287 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest) in 734.933ms
+2021-07-14 13:38:42.297 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:38:42.299 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - - - 200 - application/json;+charset=utf-8 917.5079ms
+2021-07-14 13:42:10.535 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-14 13:42:10.595 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-14 13:42:10.595 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-14 13:42:10.595 +03:00 [INF] Hosting environment: Development
+2021-07-14 13:42:10.596 +03:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Rest
+2021-07-14 13:42:13.310 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-07-14 13:42:13.560 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 257.1341ms
+2021-07-14 13:42:14.709 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-14 13:42:15.166 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 456.1849ms
+2021-07-14 13:42:22.701 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - -
+2021-07-14 13:42:22.809 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:42:22.905 +03:00 [INF] Route matched with {action = "ParseAll", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] ParseAll(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-14 13:42:22.956 +03:00 [INF] Loading metrics from metrics/
+2021-07-14 13:42:22.991 +03:00 [INF] Xml loaded
+2021-07-14 13:42:22.992 +03:00 [INF] Parsing started. Xml files to parse - 1
+2021-07-14 13:42:23.160 +03:00 [INF] Xml parsed A20210528.0900+0300-0915+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587657_statsfile 12.19.18 12.32.15 13.04.0l_parsed.xml
+2021-07-14 13:42:23.675 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-07-14 13:42:23.719 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest) in 785.2858ms
+2021-07-14 13:42:23.734 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-14 13:42:23.735 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/parse?onlyNew=false - - - 200 - application/json;+charset=utf-8 1034.3586ms

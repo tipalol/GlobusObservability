@@ -1,5 +1,5 @@
 {
-  "Name": "2021-05-28 00:00:00Z-GL587657-ONRM_ROOT_MO,eNodeB_PNZ,",
+  "Name": "2021-05-28 00:00:00Z-GL587657-ONRM_ROOT_MO,eNodeB_PNZ",
   "Date": "2021-05-28T00:00:00",
   "SubNetworks": [
     "ONRM_ROOT_MO",
@@ -9,7 +9,7 @@
   "Metrics": [
     {
       "Id": "FieldReplaceableUnit",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Equipment=1,FieldReplaceableUnit=BB-1": {
@@ -66,7 +66,7 @@
     },
     {
       "Id": "EthernetPort",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,EthernetPort=TN_C": {
@@ -118,7 +118,7 @@
     },
     {
       "Id": "InterfaceIPv4",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,Router=Abis,InterfaceIPv4=Abis": {
@@ -222,7 +222,7 @@
     },
     {
       "Id": "SctpAssociation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,SctpEndpoint=LTE,SctpAssociation=36412-10.17.13.226": {
@@ -1902,7 +1902,7 @@
     },
     {
       "Id": "VlanPort",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,VlanPort=Abis": {
@@ -1997,7 +1997,7 @@
     },
     {
       "Id": "EUtranCellFDD",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577": {
@@ -2038,7 +2038,7 @@
     },
     {
       "Id": "BbProcessingResource",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Equipment=1,FieldReplaceableUnit=BB-1,BbProcessingResource=1": {
@@ -2051,7 +2051,7 @@
     },
     {
       "Id": "ENodeBFunction",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1": {
@@ -2078,7 +2078,7 @@
     },
     {
       "Id": "EUtranCellFDD",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577": {
@@ -5875,7 +5875,7 @@
     },
     {
       "Id": "EUtranCellRelation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577,EUtranFreqRelation=1275,EUtranCellRelation=25099-583638-7": {
@@ -9607,7 +9607,7 @@
     },
     {
       "Id": "MpProcessingResource",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Equipment=1,FieldReplaceableUnit=BB-1,MpProcessingResource=1": {
@@ -9630,7 +9630,7 @@
     },
     {
       "Id": "PmFlexEUtranCellFDD",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577": {
@@ -12812,7 +12812,7 @@
     },
     {
       "Id": "Sctp",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,Sctp=General": {
@@ -12825,7 +12825,7 @@
     },
     {
       "Id": "TermPointToSGW",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,TermPointToSGW=1": {
@@ -13013,7 +13013,7 @@
     },
     {
       "Id": "UtranCellRelation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876579,UtranFreqRelation=10813,UtranCellRelation=25099-458-64755": {
@@ -17221,7 +17221,7 @@
     },
     {
       "Id": "BbProcessingResource",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Equipment=1,FieldReplaceableUnit=BB-1,BbProcessingResource=1": {
@@ -17476,7 +17476,7 @@
     },
     {
       "Id": "ENodeBFunction",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1": {
@@ -17563,7 +17563,7 @@
     },
     {
       "Id": "EUtranCellFDD",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577": {
@@ -19488,7 +19488,7 @@
     },
     {
       "Id": "EUtranCellRelation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577,EUtranFreqRelation=1275,EUtranCellRelation=25099-583638-7": {
@@ -23220,7 +23220,7 @@
     },
     {
       "Id": "GeranCellRelation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876578,GeranFreqGroupRelation=PNZ_ALL,GeranCellRelation=25099-55851-6576": {
@@ -24180,7 +24180,7 @@
     },
     {
       "Id": "UtranCellRelation",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876579,UtranFreqRelation=10813,UtranCellRelation=25099-458-64755": {
@@ -25013,7 +25013,7 @@
     },
     {
       "Id": "EUtranCellFDD",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,ENodeBFunction=1,EUtranCellFDD=5876577": {
@@ -25081,7 +25081,7 @@
     },
     {
       "Id": "EthernetPort",
-      "Date": "2021-05-28T00:00:00",
+      "Duration": "PT900S",
       "Value": [
         {
           "ManagedElement=GL587657,Transport=1,EthernetPort=TN_C": {

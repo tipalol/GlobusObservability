@@ -9,11 +9,16 @@ namespace GlobusObservability.Core.Parsing.Parsers
 {
     public class TypeValuesParser : IParser
     {
+        // Xml Block Keys
         private const string MeasureBlockKey = "measInfo";
-        private const string MeasureIdProperty = "measInfoId";
         private const string MeasureTypeBlockKey = "measType";
-        private const string MeasureTypeProperty = "p";
         private const string MeasureValueBlockKey = "measValue";
+        private const string MeasureDurationBlock = "granPeriod";
+        
+        // Xml Property Keys
+        private const string MeasureIdProperty = "measInfoId";
+        private const string MeasureDurationProperty = "duration";
+        private const string MeasureTypeProperty = "p";
         private const string MeasureNodeProperty = "measObjLdn";
 
         public JsonMetricsModel ParseValue(JsonMetricsModel metricsModel, XmlMetricDto xml)
@@ -40,19 +45,19 @@ namespace GlobusObservability.Core.Parsing.Parsers
             if (node.Name == MeasureBlockKey)
             {
                 // Parse metric date
-                DateTime metricDate = metricModel.Date;
+                var metricDate = "";
                 foreach (XmlNode dateExpected in node.ChildNodes)
                 {
-                    if (dateExpected.Name != "granPeriod") continue;
+                    if (dateExpected.Name != MeasureDurationBlock) continue;
                     
-                    metricDate = Convert.ToDateTime(dateExpected.Attributes?["endTime"]?.InnerText);
+                    metricDate = dateExpected.Attributes?[MeasureDurationProperty]?.InnerText;
                     break;
                 }
                 
                 var metric = new MetricModel()
                 {
                     Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
-                    Date = metricDate,
+                    Duration = metricDate,
                     Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
                 };
 

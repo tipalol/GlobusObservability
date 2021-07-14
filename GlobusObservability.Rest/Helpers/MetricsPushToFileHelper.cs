@@ -13,7 +13,7 @@ namespace GlobusObservability.Rest.Helpers
         {
             var toPath = config.GetSection("Parsing")["MetricsJsonDestination"];
 
-            var dir = Directory.CreateDirectory($"{toPath}{DateTime.Today:u}");
+            var dir = Directory.CreateDirectory($"{toPath}{DateTime.Now:u}");
 
             var paths = new List<string>();
 

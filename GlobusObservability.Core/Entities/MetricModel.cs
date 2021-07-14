@@ -7,7 +7,7 @@ namespace GlobusObservability.Core.Entities
     {
         public string Id { get; set; }
         
-        public DateTime Date { get; set; }
+        public string Duration { get; set; }
 
         public List<Dictionary<string, Dictionary<string, int[]>>> Value { get; set; }
     }

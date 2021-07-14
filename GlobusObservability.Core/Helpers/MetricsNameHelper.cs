@@ -10,6 +10,8 @@ namespace GlobusObservability.Core.Helpers
 
             var networks = metric.SubNetworks.Aggregate("", (current, network) => current + (network + ","));
 
+            networks = networks.Remove(networks.Length - 1);
+
             return $"{metric.Date:u}-{metric.NodeName}-{networks}";
         }
     }
