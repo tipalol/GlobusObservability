@@ -16,13 +16,58 @@ namespace GlobusObservability.Rest.Helpers
 
         private static string Endpoint => $"{Ip}:{Port}";
         private static string Uri => $"{Protocol}://{Endpoint}/job/{Job}/instance{Instance}";
+        
+        private static async Task Push(string labels, string id, int value)
+        {
+            var query = id + "{" + labels + "} " + value;
+
+            await _client.PostAsync(Uri, new StringContent(query));
+        }
+        
+        private static readonly HttpClient _client = new HttpClient();
+
 
         public static async Task PushMetrics(IEnumerable<JsonMetricsModel> metrics)
         {
-            var httpClient = new HttpClient();
-
             foreach (var metric in metrics)
-                await httpClient.PutAsync(Uri, new StringContent(JsonConvert.SerializeObject(metric)));
+            {
+
+                var results = new Dictionary<string, int>();
+
+                foreach (var model in metric.Metrics)
+                {
+                    foreach (var values in model.Value)
+                    {
+                        foreach (var value in values)
+                        {
+                            foreach (var measures in values)
+                            {
+                                foreach (var measure in measures.Value)
+                                {
+                                    var metricId = measure.Key;
+                                    var metricLabels = "label=";
+
+                                    foreach (var ms in measure.Value)
+                                    {
+                                        var metricValue = ms;
+
+                                        metricLabels += $"\"{metric.Name}\"";
+                                        metricLabels += $"label=\"{metric.Date}\"";
+                                        metricLabels += $"label=\"{metric.SubNetworks}\"";
+                                        metricLabels += $"label=\"{metric.NodeName}\"";
+                                        metricLabels += $"label=\"{model.Id}\"";
+                                        metricLabels += $"label=\"{measure.Key}\"";
+
+                                        await Push(metricLabels, metricId, metricValue);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                //await httpClient.PutAsync(Uri, new StringContent(JsonConvert.SerializeObject(metric)));
+            }
         }
     }
 }
