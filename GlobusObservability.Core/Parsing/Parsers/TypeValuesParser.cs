@@ -58,7 +58,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
                 {
                     Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
                     Duration = metricDuration,
-                    Value = new List<MetricValue>()
+                    Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
                 };
 
                 // <measType> block values
@@ -103,11 +103,9 @@ namespace GlobusObservability.Core.Parsing.Parsers
                 }
                 
                 // When measInfo block ended
-                //metric.Value.Add(nodeMetrics);
-
-                var presentedMetric = MetricPresenter.Present(nodeMetrics, metric.Id, metric.Duration);
+                metric.Value.Add(nodeMetrics);
                 
-                metricModel.Metrics.Add(presentedMetric);
+                metricModel.Metrics.Add(metric);
             }
             
             
