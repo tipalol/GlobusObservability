@@ -130,3 +130,6 @@
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.dll
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.Abstractions.dll
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.MetricPusher.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.NetCore.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.NetStandard.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.AspNetCore.dll

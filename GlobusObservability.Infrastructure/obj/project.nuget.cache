@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QLLQz88cXEq0gdhUmIJiRanwJum60isuF/GKMOLYUuL3OTDSbCX/VmvcentvPgQyAlkp4sK512IgBRggV/9eeg==",
+  "dgSpecHash": "xp9CBzg4cetOtyeebyeASbzSFj9sGiDlwen9Dij/C+RDMs/zK3tyKACKRSkHDJroyaSyz8cY5V3YhGCLno79OQ==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Infrastructure/GlobusObservability.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus-net/4.2.0/prometheus-net.4.2.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/prometheus-net.aspnetcore/4.2.0/prometheus-net.aspnetcore.4.2.0.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512"
   ],
   "logs": []

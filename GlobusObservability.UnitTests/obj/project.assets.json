@@ -659,6 +659,32 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "prometheus-net/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        }
+      },
+      "prometheus-net.AspNetCore/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "prometheus-net": "4.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Prometheus.Client/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1655,14 +1681,19 @@
         "dependencies": {
           "GlobusObservability.Core": "1.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "prometheus-net": "4.2.0",
+          "prometheus-net.AspNetCore": "4.2.0"
         },
         "compile": {
           "bin/placeholder/GlobusObservability.Infrastructure.dll": {}
         },
         "runtime": {
           "bin/placeholder/GlobusObservability.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "GlobusObservability.Rest/1.0.0": {
         "type": "project",
@@ -2928,6 +2959,53 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.17.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "prometheus-net/4.2.0": {
+      "sha512": "1u9aEPHnp3qrY9KsJRTZ1FmaBiOxEzEeEuHzmTyEnudd0KKB5KSG9enkEIeyaptFVu/B43pLwLwS1FqF/fXdCg==",
+      "type": "package",
+      "path": "prometheus-net/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/net461/Prometheus.NetStandard.dll",
+        "lib/net461/Prometheus.NetStandard.pdb",
+        "lib/net461/Prometheus.NetStandard.xml",
+        "lib/netcoreapp2.1/Prometheus.NetCore.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetCore.dll",
+        "lib/netcoreapp2.1/Prometheus.NetCore.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetCore.xml",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.dll",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.xml",
+        "lib/netstandard2.0/Prometheus.NetStandard.deps.json",
+        "lib/netstandard2.0/Prometheus.NetStandard.dll",
+        "lib/netstandard2.0/Prometheus.NetStandard.pdb",
+        "lib/netstandard2.0/Prometheus.NetStandard.xml",
+        "prometheus-net.4.2.0.nupkg.sha512",
+        "prometheus-net.nuspec"
+      ]
+    },
+    "prometheus-net.AspNetCore/4.2.0": {
+      "sha512": "NRVI8l6UUQcT+pB/NukoGbsSB8/BZ1NQUQiHpnpErwCZ+CjCYHGmu+GTHuIqKgVf3ifn96D2gvRl5N7Q6xLUeQ==",
+      "type": "package",
+      "path": "prometheus-net.aspnetcore/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.deps.json",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.dll",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.pdb",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.xml",
+        "lib/netstandard2.0/Prometheus.AspNetCore.deps.json",
+        "lib/netstandard2.0/Prometheus.AspNetCore.dll",
+        "lib/netstandard2.0/Prometheus.AspNetCore.pdb",
+        "lib/netstandard2.0/Prometheus.AspNetCore.xml",
+        "prometheus-net.aspnetcore.4.2.0.nupkg.sha512",
+        "prometheus-net.aspnetcore.nuspec"
       ]
     },
     "Prometheus.Client/4.3.0": {

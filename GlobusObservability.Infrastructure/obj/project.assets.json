@@ -45,6 +45,32 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "prometheus-net/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {},
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {}
+        }
+      },
+      "prometheus-net.AspNetCore/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "prometheus-net": "4.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Serilog/2.10.0": {
         "type": "package",
         "compile": {
@@ -159,6 +185,53 @@
         "packageIcon.png"
       ]
     },
+    "prometheus-net/4.2.0": {
+      "sha512": "1u9aEPHnp3qrY9KsJRTZ1FmaBiOxEzEeEuHzmTyEnudd0KKB5KSG9enkEIeyaptFVu/B43pLwLwS1FqF/fXdCg==",
+      "type": "package",
+      "path": "prometheus-net/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/net461/Prometheus.NetStandard.dll",
+        "lib/net461/Prometheus.NetStandard.pdb",
+        "lib/net461/Prometheus.NetStandard.xml",
+        "lib/netcoreapp2.1/Prometheus.NetCore.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetCore.dll",
+        "lib/netcoreapp2.1/Prometheus.NetCore.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetCore.xml",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.deps.json",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.dll",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.pdb",
+        "lib/netcoreapp2.1/Prometheus.NetStandard.xml",
+        "lib/netstandard2.0/Prometheus.NetStandard.deps.json",
+        "lib/netstandard2.0/Prometheus.NetStandard.dll",
+        "lib/netstandard2.0/Prometheus.NetStandard.pdb",
+        "lib/netstandard2.0/Prometheus.NetStandard.xml",
+        "prometheus-net.4.2.0.nupkg.sha512",
+        "prometheus-net.nuspec"
+      ]
+    },
+    "prometheus-net.AspNetCore/4.2.0": {
+      "sha512": "NRVI8l6UUQcT+pB/NukoGbsSB8/BZ1NQUQiHpnpErwCZ+CjCYHGmu+GTHuIqKgVf3ifn96D2gvRl5N7Q6xLUeQ==",
+      "type": "package",
+      "path": "prometheus-net.aspnetcore/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.deps.json",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.dll",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.pdb",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.xml",
+        "lib/netstandard2.0/Prometheus.AspNetCore.deps.json",
+        "lib/netstandard2.0/Prometheus.AspNetCore.dll",
+        "lib/netstandard2.0/Prometheus.AspNetCore.pdb",
+        "lib/netstandard2.0/Prometheus.AspNetCore.xml",
+        "prometheus-net.aspnetcore.4.2.0.nupkg.sha512",
+        "prometheus-net.aspnetcore.nuspec"
+      ]
+    },
     "Serilog/2.10.0": {
       "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
       "type": "package",
@@ -193,7 +266,9 @@
     "net5.0": [
       "GlobusObservability.Core >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "prometheus-net >= 4.2.0",
+      "prometheus-net.AspNetCore >= 4.2.0"
     ]
   },
   "packageFolders": {
@@ -244,6 +319,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "prometheus-net": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "prometheus-net.AspNetCore": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           }
         },
         "imports": [
@@ -257,6 +340,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

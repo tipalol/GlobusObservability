@@ -502,6 +502,29 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "prometheus-net/4.2.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.0.0"
+          },
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "prometheus-net.AspNetCore/4.2.0": {
+        "dependencies": {
+          "prometheus-net": "4.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
       "Prometheus.Client/4.3.0": {
         "dependencies": {
           "Prometheus.Client.Abstractions": "4.3.0"
@@ -1144,7 +1167,9 @@
         "dependencies": {
           "GlobusObservability.Core": "1.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "prometheus-net": "4.2.0",
+          "prometheus-net.AspNetCore": "4.2.0"
         },
         "runtime": {
           "GlobusObservability.Infrastructure.dll": {}
@@ -1403,6 +1428,20 @@
       "sha512": "sha512-I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
       "path": "nunit3testadapter/3.17.0",
       "hashPath": "nunit3testadapter.3.17.0.nupkg.sha512"
+    },
+    "prometheus-net/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1u9aEPHnp3qrY9KsJRTZ1FmaBiOxEzEeEuHzmTyEnudd0KKB5KSG9enkEIeyaptFVu/B43pLwLwS1FqF/fXdCg==",
+      "path": "prometheus-net/4.2.0",
+      "hashPath": "prometheus-net.4.2.0.nupkg.sha512"
+    },
+    "prometheus-net.AspNetCore/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NRVI8l6UUQcT+pB/NukoGbsSB8/BZ1NQUQiHpnpErwCZ+CjCYHGmu+GTHuIqKgVf3ifn96D2gvRl5N7Q6xLUeQ==",
+      "path": "prometheus-net.aspnetcore/4.2.0",
+      "hashPath": "prometheus-net.aspnetcore.4.2.0.nupkg.sha512"
     },
     "Prometheus.Client/4.3.0": {
       "type": "package",

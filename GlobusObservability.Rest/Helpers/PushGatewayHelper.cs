@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Xml;
 using GlobusObservability.Core.Entities;
 using Newtonsoft.Json;
 using Serilog;
+using Prometheus;
 
 namespace GlobusObservability.Rest.Helpers
 {
@@ -41,6 +43,14 @@ namespace GlobusObservability.Rest.Helpers
 
         public async Task PushMetrics(IEnumerable<JsonMetricsModel> metrics)
         {
+            var pusher = new MetricPusher(new MetricPusherOptions()
+            {
+                Endpoint = $"{Protocol}://{Ip}:{Port}/metrics/",
+                Job = "GlobusMetrics",
+                Instance = "GlobusObservability"
+            });
+            pusher.Start();
+            
             foreach (var metric in metrics)
             {
 
@@ -70,6 +80,24 @@ namespace GlobusObservability.Rest.Helpers
                                         metricLabels += $"id=\"{model.Id}\"";
                                         metricLabels += $"measureId=\"{measure.Key}\"";
 
+                                        var networks = "";
+                                        foreach (var net in metric.SubNetworks)
+                                        {
+                                            networks += net + "-";
+                                        }
+
+                                        var promMetric = Metrics.CreateGauge(measure.Key, "", new []
+                                        {
+                                            $"{metric.Date:yyyy-MM-dd-HH-mm-ss}-{metric.NodeName}-{networks}",
+                                            $"{metric.Date:yyyy-MM-dd-HH-mm-ss}",
+                                            $"{networks}",
+                                            $"{metric.NodeName}",
+                                            $"{model.Id}",
+                                            $"{measure.Key}"
+                                        });
+                                        promMetric.Set(metricValue);
+                                        promMetric.Publish();
+
                                         await Push(metricLabels, metricId, metricValue);
                                     }
                                 }
@@ -77,7 +105,10 @@ namespace GlobusObservability.Rest.Helpers
                         }
                     }
                 }
-                
+
+                await Task.Delay(10000);
+
+                await pusher.StopAsync();
                 //await httpClient.PutAsync(Uri, new StringContent(JsonConvert.SerializeObject(metric)));
             }
         }
