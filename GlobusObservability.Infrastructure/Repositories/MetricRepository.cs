@@ -50,6 +50,17 @@ namespace GlobusObservability.Infrastructure.Repositories
             _metrics.Clear();
         }
 
+        public IEnumerable<JsonMetricsModel> LoadParsed()
+        {
+            var metricsFolder = _config.GetSection("Parsing")["MetricsJsonDestination"];
+            
+            _logger.Information($"Loading metrics from {metricsFolder}");
+            
+            var jsonMetrics = new FileMetricsProvider().GetParsed(metricsFolder);
+
+            return jsonMetrics;
+        }
+
         public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew)
         {
             var metricsFolder = _config.GetSection("Parsing")["MetricsRootFolder"];

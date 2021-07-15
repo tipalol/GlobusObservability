@@ -16,7 +16,8 @@ namespace GlobusObservability.Core.Parsing.Parsers
             subNetworks = subNetworks.Replace("SubNetwork=", string.Empty);
 
             // removing last comma
-            subNetworks = subNetworks.Remove(subNetworks.Length - 1);
+            if (subNetworks.Length > 0)
+                subNetworks = subNetworks.Remove(subNetworks.Length - 1);
 
             var networks = subNetworks.Split(',');
 

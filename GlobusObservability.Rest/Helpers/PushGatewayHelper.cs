@@ -3,10 +3,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using GlobusObservability.Core.Entities;
 using Newtonsoft.Json;
+using Serilog;
 
 namespace GlobusObservability.Rest.Helpers
 {
-    public static class PushGatewayHelper
+    public class PushGatewayHelper
     {
         private const string Protocol = "http";
         private const string Ip = "172.24.217.5";
@@ -14,22 +15,31 @@ namespace GlobusObservability.Rest.Helpers
         private const string Job = "StoneWorkerForThreeDays";
         private const string Instance = "Clown";
 
-        private static string Endpoint => $"{Ip}:{Port}";
-        private static string Uri => $"{Protocol}://{Endpoint}/job/{Job}/instance{Instance}";
+        private readonly ILogger _logger;
         
-        private static async Task Push(string labels, string id, int value)
+        private static string Endpoint => $"{Ip}:{Port}";
+        private static string Uri => $"{Protocol}://{Endpoint}/job/{Job}/instance/{Instance}";
+
+        public PushGatewayHelper(ILogger logger)
         {
-            var query = id + "{" + labels + "} " + value;
+            _logger = logger;
+        }
+        
+        private async Task Push(string labels, string id, int value)
+        {
+            var query = " " + id + "{" + labels + "} " + value;
 
             HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, Uri);
             
-            await _client.PostAsync(Uri, new StringContent(query));
+            _logger.Debug(Uri + query);
+            
+            await _client.PostAsync(Uri + " " + query, new StringContent(""));
         }
         
-        private static readonly HttpClient _client = new HttpClient();
+        private readonly HttpClient _client = new HttpClient();
 
 
-        public static async Task PushMetrics(IEnumerable<JsonMetricsModel> metrics)
+        public async Task PushMetrics(IEnumerable<JsonMetricsModel> metrics)
         {
             foreach (var metric in metrics)
             {
@@ -47,18 +57,18 @@ namespace GlobusObservability.Rest.Helpers
                                 foreach (var measure in measures.Value)
                                 {
                                     var metricId = measure.Key;
-                                    var metricLabels = "label=";
+                                    var metricLabels = "name=";
 
                                     foreach (var ms in measure.Value)
                                     {
                                         var metricValue = ms;
 
                                         metricLabels += $"\"{metric.Name}\"";
-                                        metricLabels += $"label=\"{metric.Date}\"";
-                                        metricLabels += $"label=\"{metric.SubNetworks}\"";
-                                        metricLabels += $"label=\"{metric.NodeName}\"";
-                                        metricLabels += $"label=\"{model.Id}\"";
-                                        metricLabels += $"label=\"{measure.Key}\"";
+                                        metricLabels += $"date=\"{metric.Date}\"";
+                                        metricLabels += $"subNetworks=\"{metric.SubNetworks}\"";
+                                        metricLabels += $"nodeName=\"{metric.NodeName}\"";
+                                        metricLabels += $"id=\"{model.Id}\"";
+                                        metricLabels += $"measureId=\"{measure.Key}\"";
 
                                         await Push(metricLabels, metricId, metricValue);
                                     }

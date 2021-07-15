@@ -34,10 +34,16 @@ namespace GlobusObservability.Rest.Controllers
             
             var paths = MetricsPushToFileHelper.Push(metrics, _configuration);
 
-            await PushGatewayHelper.PushMetrics(metrics);
+            await new PushGatewayHelper(_logger).PushMetrics(metrics);
         }
-        
-        
+
+        [HttpGet("pushParsed")]
+        public async void PushParsed()
+        {
+            var metrics = _metricRepository.LoadParsed();
+            
+            await new PushGatewayHelper(_logger).PushMetrics(metrics);
+        }
         
         [HttpGet("parse")]
         public IEnumerable<string> ParseAll(bool onlyNew)
@@ -50,18 +56,20 @@ namespace GlobusObservability.Rest.Controllers
         }
 
         [HttpGet("metrics")]
-        public IEnumerable<JsonMetricsModel> GetAllMetrics()
+        public IEnumerable<JsonMetricsModel> GetAllMetrics(bool printResults)
         {
             var metrics = _metricRepository.GetAllMetrics();
             
             MetricsPushToFileHelper.Push(metrics, _configuration);
             
-            _metricRepository.Clear();
+            //_metricRepository.Clear();
             
             _logger.Information("GET Request: GetAllMetrics");
-            
-            return metrics;
+
+            return printResults ? metrics : new JsonMetricsModel[] {  };
         }
+        
+        
 
         [HttpGet("metricsInPeriod")]
         public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to)

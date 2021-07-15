@@ -41,5 +41,7 @@ namespace GlobusObservability.Infrastructure.Repositories
         public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew);
 
         public void Clear();
+
+        public IEnumerable<JsonMetricsModel> LoadParsed();
     }
 }
