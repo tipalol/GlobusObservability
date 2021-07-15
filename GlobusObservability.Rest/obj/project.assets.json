@@ -1387,6 +1387,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Newtonsoft.Json": "13.0.1",
           "Serilog": "2.10.0"
         },
         "compile": {

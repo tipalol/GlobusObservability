@@ -95,7 +95,7 @@ namespace GlobusObservability.Rest.Helpers
                                         promMetric.Set(metricValue);
                                         promMetric.Publish();
 
-                                        await Push(metricLabels, metricId, metricValue);
+                                        //await Push(metricLabels, metricId, metricValue);
                                     }
                                 }
                             }

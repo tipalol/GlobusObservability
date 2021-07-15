@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Xml;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Core.Helpers;
+using Newtonsoft.Json;
 
 namespace GlobusObservability.Core.Parsing.Parsers
 {
@@ -58,13 +60,13 @@ namespace GlobusObservability.Core.Parsing.Parsers
                 {
                     Id = MetricIdHelper.GetMetricId(node, MeasureIdProperty),
                     Duration = metricDuration,
-                    Value = new List<Dictionary<string, Dictionary<string, int[]>>>()
+                    Value = new List<Dictionary<string, Dictionary<string, long[]>>>()
                 };
 
                 // <measType> block values
                 var measureTypes = new Dictionary<int, string>();
                 // <measValue> block values
-                var nodeMetrics = new Dictionary<string, Dictionary<string, int[]>>();
+                var nodeMetrics = new Dictionary<string, Dictionary<string, long[]>>();
                 
                 // Parsing block inside measInfo block
                 foreach (XmlNode measureBlock in node.ChildNodes)
@@ -84,13 +86,37 @@ namespace GlobusObservability.Core.Parsing.Parsers
                     
                     // Parsing of measValue blocks
                     // Result will be like {"Type": 1, "Value": [1,2,3,4]}
-                    var measureValues = 
-                    (
-                        from XmlNode valueNode in measureBlock.ChildNodes 
-                        let values = valueNode.InnerText?.Split(',')
-                        select (Array.ConvertAll(values, int.Parse), valueNode) into measValues 
-                        select (Convert.ToInt32(measValues.valueNode.Attributes?[MeasureTypeProperty]?.InnerText), measValues.Item1)
-                    ).ToList();
+                    var measureValues = new List<(int, long[])> ();
+                    string[] debugValue = new string[] { };
+
+                    try
+                    {
+                        measureValues =
+                        (
+                            from XmlNode valueNode in measureBlock.ChildNodes
+                            let values = valueNode.InnerText?.Split(',')
+                            let debug = debugValue = valueNode.InnerText?.Split(',')
+                            select (Array.ConvertAll(values, long.Parse), valueNode) into measValues
+                            select (Convert.ToInt32(measValues.valueNode.Attributes?[MeasureTypeProperty]?.InnerText), measValues.Item1)
+                        ).ToList();
+                    }
+                    catch (FormatException e)
+                    {
+                        Debug.WriteLine(metricModel.Name);
+
+                        foreach (var value in measureValues)
+                            Debug.WriteLine("MeasureType: " + value.Item1 + " MeasureValues: " + JsonConvert.SerializeObject(value.Item2));
+
+                        foreach (var s in debugValue)
+                            Debug.WriteLine(s);
+
+                        measureValues = (
+                            from XmlNode valueNode in measureBlock.ChildNodes
+                            select (Convert.ToInt32(valueNode.Attributes?[MeasureTypeProperty]?.InnerText), new long[] { 0 })
+                        ).ToList();
+
+                        throw;
+                    }
 
                     // Join measureTypes list with measureValues to specidy types
                     // Result will be like {"Type", [0,1,2,3]}

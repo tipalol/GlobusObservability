@@ -7,7 +7,7 @@ namespace GlobusObservability.Infrastructure
 {
     public class GlobusMetric
     {
-        public GlobusMetric(string name, DateTime time, string valueType, int value)
+        public GlobusMetric(string name, DateTime time, string valueType, long value)
         {
             Name = name;
             Time = time;
@@ -18,6 +18,6 @@ namespace GlobusObservability.Infrastructure
         public string Name { get; set; }
         public DateTime Time { get; set; }
         public string ValueType { get; set; }
-        public int Value { get; set; }
+        public long Value { get; set; }
     }
 }

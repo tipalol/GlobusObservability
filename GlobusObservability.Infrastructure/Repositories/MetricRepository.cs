@@ -13,6 +13,7 @@ using Microsoft.Data.SqlClient;
 using Dapper.Contrib;
 using System.Threading.Tasks;
 using Dapper.Contrib.Extensions;
+using GlobusObservability.Core.Helpers;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
@@ -117,8 +118,18 @@ namespace GlobusObservability.Infrastructure.Repositories
 
             foreach (var xml in xmlMetrics)
             {
-                metrics.Add(_metricConverter.ConvertToJson(xml));
-                _logger.Information($"Xml parsed {xml.FileName}");
+                try
+                {
+
+
+                    //metrics.Add(_metricConverter.ConvertToJson(xml));
+                    var metric = _metricConverter.ConvertToJson(xml);
+                    _logger.Information($"Xml parsed {xml.FileName}");
+                    xml.Dispose();
+                    MetricsPushToFileHelper.Push(new List<JsonMetricsModel>() { metric }, _config);
+                    metric.Dispose();
+                }
+                catch (Exception e) { }
             }
 
             return metrics;

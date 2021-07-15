@@ -207,3 +207,6 @@ C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Pe
 C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\obj\Debug\net5.0\ref\GlobusObservability.PerfomanceTests.dll
 C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\obj\Debug\net5.0\GlobusObservability.PerfomanceTests.pdb
 C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\obj\Debug\net5.0\GlobusObservability.PerfomanceTests.genruntimeconfig.cache
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.PerfomanceTests\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll

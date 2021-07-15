@@ -50,12 +50,29 @@ namespace GlobusObservability.Rest.Controllers
         {
             var metrics = _metricRepository.LoadParsed();
 
+            int counter = 0;
             foreach (var metric in metrics)
             {
+                counter++;
+
+                _logger.Information($"Uploading {counter} file of {metrics.Count()}");
+
                 await _metricRepository.UploadMetric(metric);
+                metric.Dispose();
             }
             
             
+        }
+
+        [HttpGet("parseAndUpload")]
+        public async Task ParseAndUpload(bool onlyNew)
+        {
+            _logger.Information("Parsing started");
+            _logger.Information($"Parsed {ParseAll(onlyNew).Count()} files");
+
+            _logger.Information("Starting upload to Sql Server");
+
+            await UploadParsed();
         }
         
         [HttpGet("parse")]

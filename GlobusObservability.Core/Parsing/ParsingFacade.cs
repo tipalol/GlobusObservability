@@ -23,6 +23,7 @@ namespace GlobusObservability.Core.Parsing
                 new TypeValuesParser()
             };
 
+
             metric = ParseWith(metric, xmlMetric, parsers);
 
             metric.Name = MetricsNameHelper.GenerateName(metric);
