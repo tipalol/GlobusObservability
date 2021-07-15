@@ -1,11 +1,15 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using GlobusObservability.Core.Entities;
 using GlobusObservability.Core.Services;
 using GlobusObservability.Infrastructure.Providers;
 using Microsoft.Extensions.Configuration;
 using Serilog;
+using Dapper;
+using GlobusObservability.Infrastructure.Helpers;
+using Microsoft.Data.SqlClient;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
@@ -16,18 +20,21 @@ namespace GlobusObservability.Infrastructure.Repositories
         private readonly ILogger _logger;
         private readonly IMetricConverterService _metricConverter;
 
+        private readonly string _connection = "";
+
         public MetricRepository(IMetricConverterService metricConverter, IConfiguration config, ILogger logger)
         {
             _metricConverter = metricConverter;
             _logger = logger;
             _config = config;
             _metrics = new Dictionary<string, JsonMetricsModel>();
+            _connection = config.GetSection("Database")["ConnectionString"];
         }
         
         public IEnumerable<JsonMetricsModel> GetAllMetrics()
             => _metrics.Values;
 
-        public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime @from, DateTime to)
+        public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to)
         {
             throw new NotImplementedException();
         }
@@ -36,6 +43,30 @@ namespace GlobusObservability.Infrastructure.Repositories
         {
             if (!_metrics.ContainsKey(metricModel.Name))
                 _metrics.Add(metricModel.Name, metricModel);
+        }
+
+        public void UploadMetric(JsonMetricsModel model)
+        {
+            using IDbConnection connection = new SqlConnection(_connection);
+            const string query = @"insert to Globus.Globus (Name, Time, Value_TXT, Value_INT)
+                              values (@name, @time, @valueType, @value)";
+
+            var metrics = new MetricSimplifierHelper().MakeSimple(model);
+
+            foreach (var metric in metrics)
+            {
+                var name = metric.name;
+                var time = metric.time;
+                var valueType = metric.valueType;
+                var value = metric.value;
+
+                connection.Execute(query);
+                _logger.Debug($"Send to DB: {name} {time} {valueType} {value}");
+            }
+            
+            
+
+            connection.Execute(query);
         }
 
         public void AddRawXml(XmlMetricDto xmlMetric)

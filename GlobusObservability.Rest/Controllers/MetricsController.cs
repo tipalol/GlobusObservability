@@ -45,6 +45,19 @@ namespace GlobusObservability.Rest.Controllers
             await new PushGatewayHelper(_logger).PushMetrics(metrics);
         }
         
+        [HttpGet("uploadParsed")]
+        public void UploadParsed()
+        {
+            var metrics = _metricRepository.LoadParsed();
+
+            foreach (var metric in metrics)
+            {
+                _metricRepository.UploadMetric(metric);
+            }
+            
+            
+        }
+        
         [HttpGet("parse")]
         public IEnumerable<string> ParseAll(bool onlyNew)
         {

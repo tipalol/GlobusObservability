@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Xml;
@@ -80,11 +81,7 @@ namespace GlobusObservability.Rest.Helpers
                                         metricLabels += $"id=\"{model.Id}\"";
                                         metricLabels += $"measureId=\"{measure.Key}\"";
 
-                                        var networks = "";
-                                        foreach (var net in metric.SubNetworks)
-                                        {
-                                            networks += net + "-";
-                                        }
+                                        var networks = metric.SubNetworks.Aggregate("", (current, net) => current + (net + "-"));
 
                                         var promMetric = Metrics.CreateGauge(measure.Key, "", new []
                                         {
