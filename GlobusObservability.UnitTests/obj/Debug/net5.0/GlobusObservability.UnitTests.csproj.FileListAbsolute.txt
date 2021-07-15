@@ -127,3 +127,6 @@
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/obj/Debug/net5.0/ref/GlobusObservability.UnitTests.dll
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/obj/Debug/net5.0/GlobusObservability.UnitTests.pdb
 /Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/obj/Debug/net5.0/GlobusObservability.UnitTests.genruntimeconfig.cache
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.Abstractions.dll
+/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.UnitTests/bin/Debug/net5.0/Prometheus.Client.MetricPusher.dll
