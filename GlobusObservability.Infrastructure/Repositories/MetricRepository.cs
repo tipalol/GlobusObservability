@@ -10,6 +10,9 @@ using Serilog;
 using Dapper;
 using GlobusObservability.Infrastructure.Helpers;
 using Microsoft.Data.SqlClient;
+using Dapper.Contrib;
+using System.Threading.Tasks;
+using Dapper.Contrib.Extensions;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
@@ -28,7 +31,7 @@ namespace GlobusObservability.Infrastructure.Repositories
             _logger = logger;
             _config = config;
             _metrics = new Dictionary<string, JsonMetricsModel>();
-            _connection = config.GetSection("Database")["ConnectionString"];
+            _connection = "Data Source=172.21.224.36;Initial Catalog=SMP;Persist Security Info=True;User ID=Globus;Password=Globus";
         }
         
         public IEnumerable<JsonMetricsModel> GetAllMetrics()
@@ -45,28 +48,34 @@ namespace GlobusObservability.Infrastructure.Repositories
                 _metrics.Add(metricModel.Name, metricModel);
         }
 
-        public void UploadMetric(JsonMetricsModel model)
+        public async Task UploadMetric(JsonMetricsModel model)
         {
-            using IDbConnection connection = new SqlConnection(_connection);
-            const string query = @"insert to Globus.Globus (Name, Time, Value_TXT, Value_INT)
-                              values (@name, @time, @valueType, @value)";
+            using SqlConnection connection = new SqlConnection(_connection);
 
             var metrics = new MetricSimplifierHelper().MakeSimple(model);
 
+            _logger.Debug($"Started to upload metrics");
+
+            connection.Insert(metrics);
+            /*
             foreach (var metric in metrics)
             {
                 var name = metric.name;
-                var time = metric.time;
-                var valueType = metric.valueType;
+                var time = model.Date;
+                var valueType = metric.valueType.Replace(',', '_');
                 var value = metric.value;
 
-                connection.Execute(query);
-                _logger.Debug($"Send to DB: {name} {time} {valueType} {value}");
-            }
-            
-            
+                var query = $@"insert into Globus.Globus (Name, Time, Value_TXT, Value_INT)
+                              values (@name, @time, @valueType, @value)";
 
-            connection.Execute(query);
+                _logger.Debug($"{query} {name} {valueType}");
+
+                var parameters = new { name = name.ToCharArray(), time = time, valueType = valueType.ToCharArray(), value = value };
+
+                connection.Execute(query, parameters);
+                _logger.Debug($"Send to DB: {name} {time} {valueType} {value}");
+                await System.Threading.Tasks.Task.Delay(1000);
+            }*/
         }
 
         public void AddRawXml(XmlMetricDto xmlMetric)

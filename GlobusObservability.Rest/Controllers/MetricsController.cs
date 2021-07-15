@@ -46,13 +46,13 @@ namespace GlobusObservability.Rest.Controllers
         }
         
         [HttpGet("uploadParsed")]
-        public void UploadParsed()
+        public async Task UploadParsed()
         {
             var metrics = _metricRepository.LoadParsed();
 
             foreach (var metric in metrics)
             {
-                _metricRepository.UploadMetric(metric);
+                await _metricRepository.UploadMetric(metric);
             }
             
             
