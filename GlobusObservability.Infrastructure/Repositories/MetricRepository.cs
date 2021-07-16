@@ -120,8 +120,6 @@ namespace GlobusObservability.Infrastructure.Repositories
             {
                 try
                 {
-
-
                     //metrics.Add(_metricConverter.ConvertToJson(xml));
                     var metric = _metricConverter.ConvertToJson(xml);
                     _logger.Information($"Xml parsed {xml.FileName}");

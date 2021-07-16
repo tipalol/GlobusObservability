@@ -19,7 +19,7 @@ namespace GlobusObservability.Infrastructure.Helpers
                         var time = model.Duration;
                         var networks = metricModel.SubNetworks.Aggregate("", (current, net) => current + (net + "-"));
                         networks = networks.Remove(networks.Length - 1);
-                        var valueType = $"{metricModel.NodeName}-{networks}-{model.Id}";
+                        var valueType = $"{metricModel.NodeName.Replace("statsfill", "")}-{networks}-{model.Id}";
 
                         result.AddRange(ints.Select(measureValue => new GlobusMetric(name, time, valueType, measureValue)));
                     }
