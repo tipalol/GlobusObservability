@@ -19,7 +19,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
         
         // Xml Property Keys
         private const string MeasureIdProperty = "measInfoId";
-        private const string MeasureDurationProperty = "duration";
+        private const string MeasureDurationProperty = "endTime";
         private const string MeasureTypeProperty = "p";
         private const string MeasureNodeProperty = "measObjLdn";
 
@@ -47,12 +47,12 @@ namespace GlobusObservability.Core.Parsing.Parsers
             if (node.Name == MeasureBlockKey)
             {
                 // Parse metric date
-                var metricDuration = string.Empty;
+                var metricDuration = DateTime.Now;
                 foreach (XmlNode durationExpected in node.ChildNodes)
                 {
                     if (durationExpected.Name != MeasureDurationBlock) continue;
                     
-                    metricDuration = durationExpected.Attributes?[MeasureDurationProperty]?.InnerText;
+                    metricDuration = DateTime.Parse(durationExpected.Attributes?[MeasureDurationProperty]?.InnerText);
                     break;
                 }
                 

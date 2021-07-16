@@ -4202,3 +4202,1024 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\User
 2021-07-15 23:59:15.671 +03:00 [DBG] Started to upload metrics
 2021-07-16 00:09:37.181 +03:00 [INF] Uploading 19 file of 1203
 2021-07-16 00:09:40.050 +03:00 [DBG] Started to upload metrics
+2021-07-16 00:56:14.303 +03:00 [INF] Uploading 20 file of 1203
+2021-07-16 00:56:14.413 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:00:42.153 +03:00 [INF] Uploading 21 file of 1203
+2021-07-16 01:00:42.169 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:01:41.710 +03:00 [INF] Uploading 22 file of 1203
+2021-07-16 01:01:44.942 +03:00 [WRN] As of ""2021-07-15T22:01:42.8015830+00:00"", the heartbeat has been running for ""00:00:02.1217902"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2021-07-16 01:01:44.991 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:37:34.544 +03:00 [INF] Uploading 23 file of 1203
+2021-07-16 01:37:34.767 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:46:12.905 +03:00 [INF] Uploading 24 file of 1203
+2021-07-16 01:46:12.958 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.067 +03:00 [INF] Uploading 25 file of 1203
+2021-07-16 01:48:37.069 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.071 +03:00 [INF] Uploading 26 file of 1203
+2021-07-16 01:48:37.072 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.073 +03:00 [INF] Uploading 27 file of 1203
+2021-07-16 01:48:37.075 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.076 +03:00 [INF] Uploading 28 file of 1203
+2021-07-16 01:48:37.078 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.079 +03:00 [INF] Uploading 29 file of 1203
+2021-07-16 01:48:37.081 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.082 +03:00 [INF] Uploading 30 file of 1203
+2021-07-16 01:48:37.083 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.085 +03:00 [INF] Uploading 31 file of 1203
+2021-07-16 01:48:37.088 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.090 +03:00 [INF] Uploading 32 file of 1203
+2021-07-16 01:48:37.091 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.313 +03:00 [INF] Uploading 33 file of 1203
+2021-07-16 01:48:37.315 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.528 +03:00 [INF] Uploading 34 file of 1203
+2021-07-16 01:48:37.530 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:37.778 +03:00 [INF] Uploading 35 file of 1203
+2021-07-16 01:48:37.780 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:38.882 +03:00 [INF] Uploading 36 file of 1203
+2021-07-16 01:48:38.883 +03:00 [DBG] Started to upload metrics
+2021-07-16 01:48:39.128 +03:00 [INF] Uploading 37 file of 1203
+2021-07-16 01:48:39.970 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:12:57.580 +03:00 [INF] Uploading 38 file of 1203
+2021-07-16 02:12:57.597 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:13:57.548 +03:00 [INF] Uploading 39 file of 1203
+2021-07-16 02:13:57.569 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:14:50.302 +03:00 [INF] Uploading 40 file of 1203
+2021-07-16 02:14:50.845 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:28:35.889 +03:00 [INF] Uploading 41 file of 1203
+2021-07-16 02:28:35.936 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:30:19.281 +03:00 [INF] Uploading 42 file of 1203
+2021-07-16 02:30:19.578 +03:00 [DBG] Started to upload metrics
+2021-07-16 02:44:21.688 +03:00 [INF] Uploading 43 file of 1203
+2021-07-16 02:44:23.329 +03:00 [DBG] Started to upload metrics
+2021-07-16 03:46:14.777 +03:00 [INF] Uploading 44 file of 1203
+2021-07-16 03:46:14.887 +03:00 [DBG] Started to upload metrics
+2021-07-16 03:52:39.978 +03:00 [INF] Uploading 45 file of 1203
+2021-07-16 03:52:39.994 +03:00 [DBG] Started to upload metrics
+2021-07-16 03:54:02.979 +03:00 [INF] Uploading 46 file of 1203
+2021-07-16 03:54:03.949 +03:00 [DBG] Started to upload metrics
+2021-07-16 04:31:25.168 +03:00 [INF] Uploading 47 file of 1203
+2021-07-16 04:31:25.363 +03:00 [DBG] Started to upload metrics
+2021-07-16 04:43:55.599 +03:00 [INF] Uploading 48 file of 1203
+2021-07-16 04:43:55.641 +03:00 [DBG] Started to upload metrics
+2021-07-16 04:47:53.454 +03:00 [INF] Uploading 49 file of 1203
+2021-07-16 04:47:53.484 +03:00 [DBG] Started to upload metrics
+2021-07-16 04:50:31.381 +03:00 [INF] Uploading 50 file of 1203
+2021-07-16 04:50:32.272 +03:00 [DBG] Started to upload metrics
+2021-07-16 05:16:52.724 +03:00 [INF] Uploading 51 file of 1203
+2021-07-16 05:16:53.423 +03:00 [DBG] Started to upload metrics
+2021-07-16 05:35:29.869 +03:00 [INF] Uploading 52 file of 1203
+2021-07-16 05:35:29.886 +03:00 [DBG] Started to upload metrics
+2021-07-16 05:36:31.276 +03:00 [INF] Uploading 53 file of 1203
+2021-07-16 05:36:31.408 +03:00 [DBG] Started to upload metrics
+2021-07-16 05:41:37.617 +03:00 [INF] Uploading 54 file of 1203
+2021-07-16 05:41:43.183 +03:00 [DBG] Started to upload metrics
+2021-07-16 09:25:51.921 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-16 09:25:51.976 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-16 09:25:51.978 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-16 09:25:51.979 +03:00 [INF] Hosting environment: Development
+2021-07-16 09:25:52.024 +03:00 [INF] Content root path: C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Rest
+2021-07-16 09:26:00.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2021-07-16 09:27:08.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 68014.7964ms
+2021-07-16 09:27:08.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-07-16 09:27:08.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 115.4431ms
+2021-07-16 09:27:08.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-16 09:27:08.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2021-07-16 09:27:08.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-07-16 09:27:09.125 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-16 09:27:09.125 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-16 09:27:09.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 489.6956ms
+2021-07-16 09:27:09.183 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-16 09:27:09.296 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 559.2704ms
+2021-07-16 09:27:09.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 668.7457ms
+2021-07-16 09:27:09.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-16 09:27:09.796 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - -
+2021-07-16 09:27:09.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - -
+2021-07-16 09:27:10.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-07-16 09:27:10.053 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-16 09:27:10.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 42.9347ms
+2021-07-16 09:27:10.122 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 325.5371ms
+2021-07-16 09:27:10.152 +03:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map - -
+2021-07-16 09:27:10.124 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 176.6357ms
+2021-07-16 09:27:10.166 +03:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map - -
+2021-07-16 09:27:10.170 +03:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 18.2819ms
+2021-07-16 09:27:10.183 +03:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 17.4855ms
+2021-07-16 09:27:10.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 437.7523ms
+2021-07-16 09:27:19.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/parse?onlyNew=false - -
+2021-07-16 09:27:19.789 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-16 09:27:19.868 +03:00 [INF] Route matched with {action = "ParseAll", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] ParseAll(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-16 09:27:19.899 +03:00 [INF] Loading metrics from C:/metrics/
+2021-07-16 09:28:03.029 +03:00 [INF] Xml loaded
+2021-07-16 09:28:03.036 +03:00 [INF] Parsing started. Xml files to parse - 1023
+2021-07-16 09:28:03.199 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562757_statsfill_parsed.xml
+2021-07-16 09:28:03.773 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562791_statsfill_parsed.xml
+2021-07-16 09:28:03.834 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562804_statsfill_parsed.xml
+2021-07-16 09:28:03.963 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563720_statsfill_parsed.xml
+2021-07-16 09:28:04.136 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563753_statsfill_parsed.xml
+2021-07-16 09:28:04.203 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563756_statsfill_parsed.xml
+2021-07-16 09:28:04.307 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563954_statsfill_parsed.xml
+2021-07-16 09:28:04.371 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563702_statsfill_parsed.xml
+2021-07-16 09:28:04.403 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563939_statsfill_parsed.xml
+2021-07-16 09:28:04.409 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563944_statsfill_parsed.xml
+2021-07-16 09:28:04.415 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563979_statsfill_parsed.xml
+2021-07-16 09:28:04.426 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563998_statsfill_parsed.xml
+2021-07-16 09:28:04.461 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562716_statsfill_parsed.xml
+2021-07-16 09:28:04.515 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562801_statsfill_parsed.xml
+2021-07-16 09:28:04.570 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562806_statsfill_parsed.xml
+2021-07-16 09:28:04.894 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562813_statsfill_parsed.xml
+2021-07-16 09:28:04.942 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562915_statsfill_parsed.xml
+2021-07-16 09:28:05.021 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562974_statsfill_parsed.xml
+2021-07-16 09:28:05.224 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562980_statsfill_parsed.xml
+2021-07-16 09:28:05.275 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562983_statsfill_parsed.xml
+2021-07-16 09:28:05.333 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563807_statsfill_parsed.xml
+2021-07-16 09:28:05.391 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563815_statsfill_parsed.xml
+2021-07-16 09:28:05.444 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563816_statsfill_parsed.xml
+2021-07-16 09:28:05.492 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563922_statsfill_parsed.xml
+2021-07-16 09:28:05.548 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563928_statsfill_parsed.xml
+2021-07-16 09:28:05.589 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563952_statsfill_parsed.xml
+2021-07-16 09:28:05.624 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563973_statsfill_parsed.xml
+2021-07-16 09:28:05.689 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563992_statsfill_parsed.xml
+2021-07-16 09:28:05.745 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564780_statsfill_parsed.xml
+2021-07-16 09:28:06.090 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564913_statsfill_parsed.xml
+2021-07-16 09:28:06.135 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564919_statsfill_parsed.xml
+2021-07-16 09:28:06.175 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564920_statsfill_parsed.xml
+2021-07-16 09:28:06.220 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564930_statsfill_parsed.xml
+2021-07-16 09:28:06.266 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564940_statsfill_parsed.xml
+2021-07-16 09:28:06.302 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564947_statsfill_parsed.xml
+2021-07-16 09:28:06.338 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564969_statsfill_parsed.xml
+2021-07-16 09:28:06.373 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564990_statsfill_parsed.xml
+2021-07-16 09:28:06.403 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565903_statsfill_parsed.xml
+2021-07-16 09:28:06.437 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565919_statsfill_parsed.xml
+2021-07-16 09:28:06.474 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565924_statsfill_parsed.xml
+2021-07-16 09:28:06.510 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565932_statsfill_parsed.xml
+2021-07-16 09:28:06.554 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565935_statsfill_parsed.xml
+2021-07-16 09:28:06.589 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565938_statsfill_parsed.xml
+2021-07-16 09:28:06.617 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565948_statsfill_parsed.xml
+2021-07-16 09:28:06.654 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565958_statsfill_parsed.xml
+2021-07-16 09:28:06.685 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL566964_statsfill_parsed.xml
+2021-07-16 09:28:06.712 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562135-18-MTS_statsfill_parsed.xml
+2021-07-16 09:28:06.806 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562136-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:06.898 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562138-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:06.962 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562143-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.033 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562144-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.131 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562148-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.243 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562149-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.514 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562154-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.632 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562158-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.754 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562159-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.823 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562162-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.890 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562163-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:07.943 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562173-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:08.004 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562186-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:08.122 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562188-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:08.224 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562702-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:08.742 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562705-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:08.909 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562708-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:09.148 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562709-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:09.267 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562711-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:09.974 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562713-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:10.470 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562715-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:10.785 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562717-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:10.868 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562718-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:11.325 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562723-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:11.432 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562724-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:11.533 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562725-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:11.711 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562726-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:11.911 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562729-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:12.210 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562731-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:12.464 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562734-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:12.638 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562737-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:12.766 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562738-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:13.372 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562744-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:13.927 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562746-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.108 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562748-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.350 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562752-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.470 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562753-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.557 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562754-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.681 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562755-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.744 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562760-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.827 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562761-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.896 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562762-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:14.938 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562763-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:15.022 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562769-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:15.182 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562777-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:15.348 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562782-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:15.667 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562784-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:16.322 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562790-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:16.471 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562792-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:16.539 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562793-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:16.669 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562794-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:16.804 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562795-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:16.900 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562796-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:17.000 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562797-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:17.066 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562807-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:17.507 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562816-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:17.587 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562817-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:17.686 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562819-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:18.076 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562821-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:18.159 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562899-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:19.246 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562906-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:20.875 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562909-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:21.501 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562910-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:22.521 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562916-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:23.439 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562920-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:25.578 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562929-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:25.802 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562930-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:26.404 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562933-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:27.197 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562935-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:27.522 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562936-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:27.859 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562937-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:28.226 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562939-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:29.287 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562944-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:30.273 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562950-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:30.690 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562952-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:30.832 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562953-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.122 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562956-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.332 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562961-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.449 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562963-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.525 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562964-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.601 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562965-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.877 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562967-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:31.983 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562972-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.082 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562973-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.216 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562975-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:32.308 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562977-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.371 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.494 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562982-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.572 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562986-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.653 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562987-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.715 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562988-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:32.782 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562989-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.886 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562990-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:32.957 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562991-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:33.713 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562997-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:33.796 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562998-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:34.210 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563104-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:34.499 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563701-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:34.642 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563702-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:35.539 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563721-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:35.734 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563722-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:35.827 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563731-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:36.021 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563732-18-MTS_statsfill_parsed.xml
+2021-07-16 09:28:36.151 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563733-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:36.668 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563757-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:36.707 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563758-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:36.811 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563763-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:37.225 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563767-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:37.842 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563771-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:37.932 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563773-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:38.069 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563774-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:38.461 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563781-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:39.386 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563790-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:39.477 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563802-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:39.555 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563803-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:39.644 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563805-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:39.710 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563806-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:39.754 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563821-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:39.802 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563822-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:40.008 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563825-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:40.095 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563840-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.166 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563844-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.300 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563849-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.390 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563850-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.442 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563901-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.510 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563902-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.589 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563903-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.642 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563904-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.708 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563905-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.772 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563906-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:40.828 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563907-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:42.042 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563914-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:42.972 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563920-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:44.005 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563926-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:44.313 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563930-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:44.410 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563931-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:44.519 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563933-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:44.606 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563934-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:44.645 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563936-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:44.951 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563938-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:45.074 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563939-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:45.311 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563942-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:45.350 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563943-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:45.416 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563944-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:45.897 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563947-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:46.819 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563950-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:47.275 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563956-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:47.332 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563957-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.346 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563976-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.419 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563977-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.473 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563978-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.519 +03:00 [INF] Xml parsed A20210712.0400+0500-0415+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.549 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.593 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563980-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.637 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563981-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:50.681 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563986-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.769 +03:00 [INF] Xml parsed A20210712.0400+0500-0415+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:50.853 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:51.051 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563994-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:51.102 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563998-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:51.347 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564119-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:51.718 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564701-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:52.103 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564705-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:52.218 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564710-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:52.539 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564731-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:53.942 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564741-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.167 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564811-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:54.244 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564814-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.303 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564815-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:54.359 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564850-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.411 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564851-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.490 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564852-18-MTS_statsfill_parsed.xml
+2021-07-16 09:28:54.532 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564853-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.779 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564903-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:54.898 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564904-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:55.126 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564906-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:55.266 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564907-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:55.341 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564909-26-VC_statsfill_parsed.xml
+2021-07-16 09:28:55.737 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564915-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:55.812 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564916-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:55.868 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564917-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:56.004 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564918-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:56.107 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564921-18-VC_statsfill_parsed.xml
+2021-07-16 09:28:56.169 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564923-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:56.248 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564924-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:56.335 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564925-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:28:56.529 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564929-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:39:33.029 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564933-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:39:33.520 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564935-18-VC_statsfill_parsed.xml
+2021-07-16 09:39:33.839 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564936-18-VC_statsfill_parsed.xml
+2021-07-16 09:39:33.897 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564938-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:39:33.983 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564939-18-VC_statsfill_parsed.xml
+2021-07-16 09:39:34.213 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564946-18-VC_statsfill_parsed.xml
+2021-07-16 09:39:34.328 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564949-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:39:34.380 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564951-18-VCMTS_statsfill_parsed.xml
+2021-07-16 09:39:34.429 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564952-18-VC_statsfill_parsed.xml
+2021-07-16 10:31:34.391 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-16 10:31:34.503 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-16 10:31:34.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-16 10:31:34.604 +03:00 [INF] Hosting environment: Development
+2021-07-16 10:31:34.621 +03:00 [INF] Content root path: C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Rest
+2021-07-16 10:31:38.390 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2021-07-16 10:31:38.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 66.8989ms
+2021-07-16 10:31:38.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-07-16 10:31:38.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 107.0010ms
+2021-07-16 10:31:38.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-07-16 10:31:38.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2021-07-16 10:31:38.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-16 10:31:38.950 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-16 10:31:38.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 233.7753ms
+2021-07-16 10:31:38.984 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-16 10:31:39.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 157.0078ms
+2021-07-16 10:31:39.157 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-16 10:31:39.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 398.7338ms
+2021-07-16 10:31:39.589 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-16 10:31:39.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.4616ms
+2021-07-16 10:31:39.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - -
+2021-07-16 10:31:39.971 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - -
+2021-07-16 10:31:40.025 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 54.4559ms
+2021-07-16 10:31:40.026 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 54.4359ms
+2021-07-16 10:31:40.054 +03:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map - -
+2021-07-16 10:31:40.061 +03:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 7.3037ms
+2021-07-16 10:31:40.081 +03:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map - -
+2021-07-16 10:31:40.087 +03:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 6.7319ms
+2021-07-16 10:31:48.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/parse?onlyNew=false - -
+2021-07-16 10:31:48.436 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.ParseAll (GlobusObservability.Rest)'
+2021-07-16 10:31:48.489 +03:00 [INF] Route matched with {action = "ParseAll", controller = "Metrics"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] ParseAll(Boolean) on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-16 10:31:48.512 +03:00 [INF] Loading metrics from C:/metrics/
+2021-07-16 10:31:58.320 +03:00 [INF] Xml loaded
+2021-07-16 10:31:58.332 +03:00 [INF] Parsing started. Xml files to parse - 1023
+2021-07-16 10:31:58.435 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562757_statsfill_parsed.xml
+2021-07-16 10:31:58.796 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562791_statsfill_parsed.xml
+2021-07-16 10:31:58.866 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=562804_statsfill_parsed.xml
+2021-07-16 10:31:58.929 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563720_statsfill_parsed.xml
+2021-07-16 10:31:58.978 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563753_statsfill_parsed.xml
+2021-07-16 10:31:59.119 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563756_statsfill_parsed.xml
+2021-07-16 10:31:59.193 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=563954_statsfill_parsed.xml
+2021-07-16 10:31:59.228 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563702_statsfill_parsed.xml
+2021-07-16 10:31:59.308 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563939_statsfill_parsed.xml
+2021-07-16 10:31:59.334 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563944_statsfill_parsed.xml
+2021-07-16 10:31:59.341 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563979_statsfill_parsed.xml
+2021-07-16 10:31:59.348 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=G563998_statsfill_parsed.xml
+2021-07-16 10:31:59.388 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562716_statsfill_parsed.xml
+2021-07-16 10:31:59.452 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562801_statsfill_parsed.xml
+2021-07-16 10:31:59.503 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562806_statsfill_parsed.xml
+2021-07-16 10:31:59.761 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562813_statsfill_parsed.xml
+2021-07-16 10:31:59.825 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562915_statsfill_parsed.xml
+2021-07-16 10:31:59.906 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562974_statsfill_parsed.xml
+2021-07-16 10:32:00.133 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562980_statsfill_parsed.xml
+2021-07-16 10:32:00.318 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL562983_statsfill_parsed.xml
+2021-07-16 10:32:00.505 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563807_statsfill_parsed.xml
+2021-07-16 10:32:00.562 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563815_statsfill_parsed.xml
+2021-07-16 10:32:00.690 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563816_statsfill_parsed.xml
+2021-07-16 10:32:00.851 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563922_statsfill_parsed.xml
+2021-07-16 10:32:01.057 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563928_statsfill_parsed.xml
+2021-07-16 10:32:01.206 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563952_statsfill_parsed.xml
+2021-07-16 10:32:01.266 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563973_statsfill_parsed.xml
+2021-07-16 10:32:01.329 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL563992_statsfill_parsed.xml
+2021-07-16 10:32:01.394 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564780_statsfill_parsed.xml
+2021-07-16 10:32:01.777 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564913_statsfill_parsed.xml
+2021-07-16 10:32:01.856 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564919_statsfill_parsed.xml
+2021-07-16 10:32:01.915 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564920_statsfill_parsed.xml
+2021-07-16 10:32:01.960 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564930_statsfill_parsed.xml
+2021-07-16 10:32:02.014 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564940_statsfill_parsed.xml
+2021-07-16 10:32:02.058 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564947_statsfill_parsed.xml
+2021-07-16 10:32:02.091 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564969_statsfill_parsed.xml
+2021-07-16 10:32:02.121 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL564990_statsfill_parsed.xml
+2021-07-16 10:32:02.154 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565903_statsfill_parsed.xml
+2021-07-16 10:32:02.200 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565919_statsfill_parsed.xml
+2021-07-16 10:32:02.282 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565924_statsfill_parsed.xml
+2021-07-16 10:32:02.311 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565932_statsfill_parsed.xml
+2021-07-16 10:32:02.348 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565935_statsfill_parsed.xml
+2021-07-16 10:32:02.386 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565938_statsfill_parsed.xml
+2021-07-16 10:32:02.440 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565948_statsfill_parsed.xml
+2021-07-16 10:32:02.506 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL565958_statsfill_parsed.xml
+2021-07-16 10:32:02.545 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=GL566964_statsfill_parsed.xml
+2021-07-16 10:32:02.576 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562135-18-MTS_statsfill_parsed.xml
+2021-07-16 10:32:02.663 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562136-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:02.786 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562138-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:02.880 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562143-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:02.938 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562144-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.045 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562148-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.179 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562149-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.397 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562154-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.499 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562158-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.594 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562159-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.705 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562162-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.764 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562163-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.826 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562173-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.881 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562186-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:03.958 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562188-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:04.063 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562702-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:04.575 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562705-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:04.769 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562708-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:04.964 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562709-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:05.081 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562711-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:05.872 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562713-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:06.126 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562715-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:06.623 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562717-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:06.750 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562718-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:07.226 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562723-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:07.338 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562724-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:07.426 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562725-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:07.618 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562726-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:07.791 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562729-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:08.061 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562731-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:08.257 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562734-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:08.506 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562737-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:08.637 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562738-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:09.259 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562744-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:09.683 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562746-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:09.876 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562748-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.119 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562752-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.221 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562753-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.335 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562754-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.427 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562755-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.508 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562760-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.592 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562761-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.657 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562762-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.698 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562763-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:10.897 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562769-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:11.082 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562777-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:11.254 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562782-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:11.668 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562784-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.238 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562790-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:12.352 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562792-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.425 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562793-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.591 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562794-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.735 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562795-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.806 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562796-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.899 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562797-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:12.955 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562807-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:13.290 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562816-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:13.362 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562817-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:13.402 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562819-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:13.625 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562821-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:13.702 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562899-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:14.683 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562906-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:15.737 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562909-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:16.071 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562910-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:16.721 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562916-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:17.593 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562920-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:19.326 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562929-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:19.502 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562930-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:20.032 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562933-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:20.548 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562935-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:20.751 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562936-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:20.996 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562937-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:21.399 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562939-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:22.435 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562944-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:23.491 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562950-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:23.784 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562952-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:23.827 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562953-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.144 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562956-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.314 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562961-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.413 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562963-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.480 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562964-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.548 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562965-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.764 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562967-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.859 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562972-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:24.926 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562973-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.006 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562975-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:25.071 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562977-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.112 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.211 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562982-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.294 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562986-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.351 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562987-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.410 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562988-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:25.473 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562989-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.551 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562990-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:25.620 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562991-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:26.070 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562997-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:26.117 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0562998-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:26.438 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563104-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:26.694 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563701-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:26.767 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563702-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:27.327 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563721-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:27.465 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563722-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:27.520 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563731-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:27.591 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563732-18-MTS_statsfill_parsed.xml
+2021-07-16 10:32:27.662 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563733-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:28.037 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563757-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:28.067 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563758-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:28.160 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563763-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:28.445 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563767-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:28.976 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563771-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:29.075 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563773-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:29.185 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563774-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:29.521 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563781-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.233 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563790-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.314 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563802-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.379 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563803-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:30.414 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563805-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:30.458 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563806-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.493 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563821-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:30.569 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563822-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:30.738 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563825-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:30.825 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563840-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.868 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563844-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:30.937 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563849-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.046 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563850-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.087 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563901-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.135 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563902-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.203 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563903-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.266 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563904-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.324 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563905-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.365 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563906-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:31.424 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563907-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:32.404 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563914-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:33.236 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563920-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:33.833 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563926-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:34.019 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563930-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:34.110 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563931-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:34.196 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563933-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:34.273 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563934-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:34.306 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563936-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:34.513 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563938-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:34.579 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563939-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:34.809 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563942-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:34.849 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563943-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:34.901 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563944-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:35.374 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563947-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:43.519 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563950-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:44.319 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563956-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:44.455 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563957-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.041 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563976-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.103 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563977-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.192 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563978-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.229 +03:00 [INF] Xml parsed A20210712.0400+0500-0415+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.259 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563979-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.315 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563980-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.408 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563981-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:48.442 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563986-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.498 +03:00 [INF] Xml parsed A20210712.0400+0500-0415+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.561 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:48.748 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563994-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:48.804 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0563998-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:48.982 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564119-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:49.349 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564701-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:49.614 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564705-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:49.714 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564710-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:49.997 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564731-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:51.334 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564741-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:51.509 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564811-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:51.566 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564814-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:51.608 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564815-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:51.652 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564850-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:51.751 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564851-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:51.821 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564852-18-MTS_statsfill_parsed.xml
+2021-07-16 10:32:51.858 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564853-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:52.139 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564903-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:52.255 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564904-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:52.454 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564906-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:52.514 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564907-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:52.596 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564909-26-VC_statsfill_parsed.xml
+2021-07-16 10:32:53.065 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564915-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.122 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564916-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.176 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564917-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:53.271 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564918-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.337 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564921-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:53.415 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564923-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.534 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564924-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.600 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564925-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:53.825 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564929-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.028 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564933-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.084 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564935-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.138 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564936-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.174 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564938-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.208 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564939-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.380 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564946-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.415 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564949-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.468 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564951-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.533 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564952-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.566 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564955-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.601 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564956-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:54.647 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564957-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:54.694 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564960-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.046 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564971-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.059 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564972-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.102 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564977-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.170 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564979-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.419 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564991-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:55.496 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564992-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:55.539 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564993-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:55.627 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564994-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:55.663 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0564995-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:56.126 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565137-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.177 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565138-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.232 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565139-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.288 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565140-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.330 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565141-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.456 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565142-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.635 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565143-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:56.773 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565144-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:57.412 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565148-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.191 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565167-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.292 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565901-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.414 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565902-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.578 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565904-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.707 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565908-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:58.827 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565909-18-VC_statsfill_parsed.xml
+2021-07-16 10:32:59.172 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565912-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:32:59.798 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565923-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:00.341 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565927-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:00.626 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565928-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:00.656 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565929-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:00.774 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565930-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:00.929 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565934-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.047 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565936-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.275 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565940-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.302 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565941-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.337 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565943-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.411 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565946-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.667 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565949-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:01.920 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565950-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:02.019 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565951-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:02.496 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565953-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:02.674 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565954-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:03.264 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565957-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:03.547 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565959-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:04.018 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565960-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:04.182 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565961-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:04.619 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565964-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:04.885 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565967-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:05.241 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565968-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:05.892 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565971-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:06.306 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565972-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:06.983 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565975-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:08.801 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565984-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.066 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565985-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.320 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.514 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565989-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.627 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0565997-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:09.681 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566802-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.863 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566815-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:09.962 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566818-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.147 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566824-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.491 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566836-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.612 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566902-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.718 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566907-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.795 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566913-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:10.858 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566914-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.141 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566917-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.182 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566919-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.301 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566921-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.543 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566930-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.830 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566933-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:11.969 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566935-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.021 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566936-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.073 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566937-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.150 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566939-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:12.323 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566945-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:12.384 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566955-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.574 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566957-18-26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.691 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566958-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.803 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566959-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:12.917 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566963-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.009 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566965-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.237 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566975-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.313 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566977-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.425 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566978-18-MTS_statsfill_parsed.xml
+2021-07-16 10:33:13.671 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566981-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.751 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566984-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:13.951 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566987-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:14.012 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566988-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:14.060 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0566990-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:14.088 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567914-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:14.238 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567915-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:14.398 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567918-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:14.576 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567920-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:14.726 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567930-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.083 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567960-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.236 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567971-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.354 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0567986-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.513 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0568015-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.670 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L0568021-18-26-VC_statsfill_parsed.xml
+2021-07-16 10:33:15.763 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L562808_statsfill_parsed.xml
+2021-07-16 10:33:15.832 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L562905_statsfill_parsed.xml
+2021-07-16 10:33:15.873 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L562958_statsfill_parsed.xml
+2021-07-16 10:33:15.906 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L562981_statsfill_parsed.xml
+2021-07-16 10:33:15.946 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L562985_statsfill_parsed.xml
+2021-07-16 10:33:16.185 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563723_statsfill_parsed.xml
+2021-07-16 10:33:16.305 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563935_statsfill_parsed.xml
+2021-07-16 10:33:16.427 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563982_statsfill_parsed.xml
+2021-07-16 10:33:16.537 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563987_statsfill_parsed.xml
+2021-07-16 10:33:16.572 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563995_statsfill_parsed.xml
+2021-07-16 10:33:16.600 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563996_statsfill_parsed.xml
+2021-07-16 10:33:16.633 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L563997_statsfill_parsed.xml
+2021-07-16 10:33:16.672 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564830_statsfill_parsed.xml
+2021-07-16 10:33:16.726 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564934_statsfill_parsed.xml
+2021-07-16 10:33:16.790 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564942_statsfill_parsed.xml
+2021-07-16 10:33:16.838 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564944_statsfill_parsed.xml
+2021-07-16 10:33:16.885 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564967_statsfill_parsed.xml
+2021-07-16 10:33:17.117 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564978_statsfill_parsed.xml
+2021-07-16 10:33:17.150 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L564980_statsfill_parsed.xml
+2021-07-16 10:33:17.191 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L565918_statsfill_parsed.xml
+2021-07-16 10:33:17.236 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L565925_statsfill_parsed.xml
+2021-07-16 10:33:17.273 +03:00 [INF] Xml parsed A20210712.0415+0500-0430+0500_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_ORB,MeContext=L565945_statsfill_parsed.xml
+2021-07-16 10:33:17.312 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=583618_statsfill_parsed.xml
+2021-07-16 10:33:17.358 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=583619_statsfill_parsed.xml
+2021-07-16 10:33:17.395 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=583663_statsfill_parsed.xml
+2021-07-16 10:33:17.436 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=584663_statsfill_parsed.xml
+2021-07-16 10:33:17.489 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=586696_statsfill_parsed.xml
+2021-07-16 10:33:17.539 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=586699_statsfill_parsed.xml
+2021-07-16 10:33:17.582 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=587651_statsfill_parsed.xml
+2021-07-16 10:33:17.586 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=G583692_statsfill_parsed.xml
+2021-07-16 10:33:17.595 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=G583695_statsfill_parsed.xml
+2021-07-16 10:33:17.599 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=G585660_statsfill_parsed.xml
+2021-07-16 10:33:17.606 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=G587018_statsfill_parsed.xml
+2021-07-16 10:33:17.630 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583614_statsfill_parsed.xml
+2021-07-16 10:33:17.672 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583637_statsfill_parsed.xml
+2021-07-16 10:33:17.715 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583640_statsfill_parsed.xml
+2021-07-16 10:33:17.918 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583654_statsfill_parsed.xml
+2021-07-16 10:33:17.948 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583666_statsfill_parsed.xml
+2021-07-16 10:33:18.112 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583682_statsfill_parsed.xml
+2021-07-16 10:33:18.165 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583691_statsfill_parsed.xml
+2021-07-16 10:33:18.225 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL583693_statsfill_parsed.xml
+2021-07-16 10:33:18.286 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL584610_statsfill_parsed.xml
+2021-07-16 10:33:18.337 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL584620_statsfill_parsed.xml
+2021-07-16 10:33:18.368 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL584631_statsfill_parsed.xml
+2021-07-16 10:33:18.431 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL585649_statsfill_parsed.xml
+2021-07-16 10:33:18.649 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL585682_statsfill_parsed.xml
+2021-07-16 10:33:18.759 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL585683_statsfill_parsed.xml
+2021-07-16 10:33:18.938 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587604_statsfill_parsed.xml
+2021-07-16 10:33:18.980 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587636_statsfill_parsed.xml
+2021-07-16 10:33:19.036 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587642_statsfill_parsed.xml
+2021-07-16 10:33:19.093 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587657_statsfill_parsed.xml
+2021-07-16 10:33:19.144 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587665_statsfill_parsed.xml
+2021-07-16 10:33:19.187 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587670_statsfill_parsed.xml
+2021-07-16 10:33:19.231 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587671_statsfill_parsed.xml
+2021-07-16 10:33:19.276 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587679_statsfill_parsed.xml
+2021-07-16 10:33:19.315 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587683_statsfill_parsed.xml
+2021-07-16 10:33:19.472 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=GL587697_statsfill_parsed.xml
+2021-07-16 10:33:19.503 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583600-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:19.631 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583601-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:19.692 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583602-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:19.748 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583603-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:19.813 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583604-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:19.884 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583605-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:19.932 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583606-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:19.968 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583607-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:19.997 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583608-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:20.509 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583612-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:20.579 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583613-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:20.694 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583615-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:20.743 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583616-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:20.773 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583617-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:21.202 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583621-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:21.292 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583624-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:21.428 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583625-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:21.564 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583627-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:21.681 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583628-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:21.729 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583629-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:21.972 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583630-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:22.144 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583631-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:22.388 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583633-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:22.591 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583638-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:23.137 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583646-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:23.183 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583648-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:23.427 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583650-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:23.584 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583651-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:23.659 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583652-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:24.074 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583657-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:24.112 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583659-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:24.203 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583660-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:24.369 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583662-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:24.870 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583667-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:25.028 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583668-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:25.076 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583669-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:25.158 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583672-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:25.782 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583674-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.131 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583675-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.267 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583676-18-C26-26T-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.367 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583678-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.476 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583679-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:26.558 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583681-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.643 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583683-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.767 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583684-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:26.884 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583685-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:26.931 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583686-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:27.026 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583687-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.146 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583688-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.240 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583690-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.369 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583694-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.591 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583695-18-26T-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.837 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583696-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:27.967 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583697-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:28.105 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583698-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:28.390 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0583699-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:28.963 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584605-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:29.024 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584606-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:29.134 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584607-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:29.200 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584608-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:29.678 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584613-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:29.807 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584614-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:29.888 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584615-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:29.957 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584616-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.038 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584617-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.278 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584619-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.322 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584621-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.398 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584622-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.437 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584623-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:30.623 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584624-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.729 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584625-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.771 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584626-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:30.816 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584627-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:30.881 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584628-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:30.923 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584629-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:31.269 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584633-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:31.413 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584634-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:31.648 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584637-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:32.068 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584639-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:32.347 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584642-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:32.499 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584643-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:33.044 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584646-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:33.214 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584647-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:34.021 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584653-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:34.491 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584656-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:34.596 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584657-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:35.056 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584660-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:35.493 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584664-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:35.552 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584665-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:35.751 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584668-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:36.040 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584670-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:36.083 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584671-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:36.665 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584674-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:37.826 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584681-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:38.527 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584684-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:39.185 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584689-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:39.711 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584692-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:39.773 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584693-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:39.854 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584696-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:39.920 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0584697-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:41.586 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585605-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:42.063 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585608-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:42.834 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585610-18-C26-26T-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:43.232 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585611-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:44.865 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585617-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:45.364 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585620-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:45.782 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585623-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:45.932 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585624-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.015 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585625-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.118 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585626-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.301 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585628-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.346 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585629-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:46.420 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585630-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.472 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585631-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:46.505 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585632-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:46.544 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585633-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:46.601 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585634-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:46.827 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585636-18-26T-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:47.001 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585638-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:47.586 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585641-18-C26-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.021 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585644-18-VC_statsfill_parsed.xml
+2021-07-16 10:33:48.103 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585645-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.176 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585646-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.589 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585651-18-26T-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.657 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585652-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.716 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585653-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:48.778 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585654-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:49.245 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585659-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:49.821 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585663-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:33:49.905 +03:00 [INF] Xml parsed A20210712.0215+0300-0230+0300_SubNetwork=ONRM_ROOT_MO,SubNetwork=eNodeB_PNZ,MeContext=L0585664-18-VCMTS_statsfill_parsed.xml
+2021-07-16 10:40:26.374 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-16 10:40:26.394 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-16 10:40:26.395 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-16 10:40:26.396 +03:00 [INF] Hosting environment: Development
+2021-07-16 10:40:26.400 +03:00 [INF] Content root path: C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Rest
+2021-07-16 10:40:28.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2021-07-16 10:40:29.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 235.1190ms
+2021-07-16 10:40:29.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-07-16 10:40:30.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 607.5907ms
+2021-07-16 10:40:31.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-07-16 10:40:31.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2021-07-16 10:40:32.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2021-07-16 10:40:32.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-07-16 10:40:32.249 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-16 10:40:32.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 5987 application/javascript;+charset=utf-8 28.9695ms
+2021-07-16 10:40:32.261 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-16 10:40:32.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 271.1561ms
+2021-07-16 10:40:32.262 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 240.6029ms
+2021-07-16 10:40:32.271 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-16 10:40:32.273 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 279.2349ms
+2021-07-16 10:40:33.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-16 10:40:33.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.5923ms
+2021-07-16 10:40:41.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/uploadParsed - -
+2021-07-16 10:40:41.797 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.UploadParsed (GlobusObservability.Rest)'
+2021-07-16 10:40:41.838 +03:00 [INF] Route matched with {action = "UploadParsed", controller = "Metrics"}. Executing controller action with signature System.Threading.Tasks.Task UploadParsed() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-16 10:40:41.848 +03:00 [INF] Loading metrics from C:\Users\DmYuSorokin\Documents\metrics
+2021-07-16 10:40:42.460 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.UploadParsed (GlobusObservability.Rest) in 611.8902ms
+2021-07-16 10:40:42.466 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.UploadParsed (GlobusObservability.Rest)'
+2021-07-16 10:40:42.472 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GlobusObservability.Rest.Controllers.MetricsController.UploadParsed() in C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Rest\Controllers\MetricsController.cs:line 54
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-16 10:40:42.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/uploadParsed - - - 500 - text/plain 939.0502ms
+2021-07-16 10:42:25.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-07-16 10:42:25.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 8.2354ms
+2021-07-16 10:42:25.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-07-16 10:42:25.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 5987 application/javascript;+charset=utf-8 95.8659ms
+2021-07-16 10:42:26.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-16 10:42:26.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.5979ms
+2021-07-16 10:42:32.579 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/pushParsed - -
+2021-07-16 10:42:32.582 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.PushParsed (GlobusObservability.Rest)'
+2021-07-16 10:42:32.590 +03:00 [INF] Route matched with {action = "PushParsed", controller = "Metrics"}. Executing controller action with signature Void PushParsed() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-16 10:42:32.599 +03:00 [INF] Loading metrics from C:\Users\DmYuSorokin\Documents\metrics
+2021-07-16 10:43:00.585 +03:00 [INF] Executed action GlobusObservability.Rest.Controllers.MetricsController.PushParsed (GlobusObservability.Rest) in 27986.5865ms
+2021-07-16 10:43:00.590 +03:00 [INF] Executed endpoint 'GlobusObservability.Rest.Controllers.MetricsController.PushParsed (GlobusObservability.Rest)'
+2021-07-16 10:43:00.593 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/pushParsed - - - 200 0 - 28013.7254ms
+2021-07-16 10:43:25.581 +03:00 [INF] Application is shutting down...
+2021-07-16 10:43:34.508 +03:00 [INF] Now listening on: https://localhost:5001
+2021-07-16 10:43:34.532 +03:00 [INF] Now listening on: http://localhost:5000
+2021-07-16 10:43:34.533 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-16 10:43:34.534 +03:00 [INF] Hosting environment: Development
+2021-07-16 10:43:34.536 +03:00 [INF] Content root path: C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Rest
+2021-07-16 10:43:35.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-07-16 10:43:35.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 154.6972ms
+2021-07-16 10:43:35.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-07-16 10:43:36.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 5987 application/javascript;+charset=utf-8 513.0554ms
+2021-07-16 10:43:36.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-16 10:43:36.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.1647ms
+2021-07-16 10:43:46.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/uploadParsed - -
+2021-07-16 10:43:46.078 +03:00 [INF] Executing endpoint 'GlobusObservability.Rest.Controllers.MetricsController.UploadParsed (GlobusObservability.Rest)'
+2021-07-16 10:43:46.110 +03:00 [INF] Route matched with {action = "UploadParsed", controller = "Metrics"}. Executing controller action with signature System.Threading.Tasks.Task UploadParsed() on controller GlobusObservability.Rest.Controllers.MetricsController (GlobusObservability.Rest).
+2021-07-16 10:43:46.117 +03:00 [INF] Loading metrics from C:\Users\DmYuSorokin\Documents\metrics
+2021-07-16 10:44:13.903 +03:00 [INF] Uploading 1 file of 772
+2021-07-16 10:44:14.641 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.051 +03:00 [INF] Uploading 2 file of 772
+2021-07-16 10:44:16.164 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.167 +03:00 [INF] Uploading 3 file of 772
+2021-07-16 10:44:16.170 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.173 +03:00 [INF] Uploading 4 file of 772
+2021-07-16 10:44:16.180 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.181 +03:00 [INF] Uploading 5 file of 772
+2021-07-16 10:44:16.187 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.189 +03:00 [INF] Uploading 6 file of 772
+2021-07-16 10:44:16.191 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.194 +03:00 [INF] Uploading 7 file of 772
+2021-07-16 10:44:16.197 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.208 +03:00 [INF] Uploading 8 file of 772
+2021-07-16 10:44:16.241 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:16.687 +03:00 [INF] Uploading 9 file of 772
+2021-07-16 10:44:16.690 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:17.052 +03:00 [INF] Uploading 10 file of 772
+2021-07-16 10:44:17.054 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:17.348 +03:00 [INF] Uploading 11 file of 772
+2021-07-16 10:44:17.350 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:19.268 +03:00 [INF] Uploading 12 file of 772
+2021-07-16 10:44:19.270 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:44:19.701 +03:00 [INF] Uploading 13 file of 772
+2021-07-16 10:44:21.182 +03:00 [DBG] Started to upload metrics
+2021-07-16 10:57:53.257 +03:00 [INF] Application is shutting down...

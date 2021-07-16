@@ -16,7 +16,7 @@ namespace GlobusObservability.Infrastructure.Helpers
                     foreach (var (key, ints) in measures.Value)
                     {
                         var name = key;
-                        var time = metricModel.Date;
+                        var time = model.Duration;
                         var networks = metricModel.SubNetworks.Aggregate("", (current, net) => current + (net + "-"));
                         var valueType = $"{metricModel.NodeName}-{networks}-{model.Id}-{model.Duration}";
 
