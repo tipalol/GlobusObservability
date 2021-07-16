@@ -4308,34 +4308,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DmYuSorokin\\.nuget\\packages\\": {}
+    "/Users/sorokindmitrij/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DmYuSorokin\\Documents\\GitHub\\GlobusObservability\\GlobusObservability.PerfomanceTests\\GlobusObservability.PerfomanceTests.csproj",
+      "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj",
       "projectName": "GlobusObservability.PerfomanceTests",
-      "projectPath": "C:\\Users\\DmYuSorokin\\Documents\\GitHub\\GlobusObservability\\GlobusObservability.PerfomanceTests\\GlobusObservability.PerfomanceTests.csproj",
-      "packagesPath": "C:\\Users\\DmYuSorokin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DmYuSorokin\\Documents\\GitHub\\GlobusObservability\\GlobusObservability.PerfomanceTests\\obj\\",
+      "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj",
+      "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+      "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DmYuSorokin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\DmYuSorokin\\Documents\\GitHub\\GlobusObservability\\GlobusObservability.Core\\GlobusObservability.Core.csproj": {
-              "projectPath": "C:\\Users\\DmYuSorokin\\Documents\\GitHub\\GlobusObservability\\GlobusObservability.Core\\GlobusObservability.Core.csproj"
+            "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+              "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
             }
           }
         }
@@ -4382,7 +4380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
