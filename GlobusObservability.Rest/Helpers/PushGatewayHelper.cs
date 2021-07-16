@@ -24,4 +24,3 @@ namespace GlobusObservability.Rest.Helpers
                 await httpClient.PutAsync(Uri, new StringContent(JsonConvert.SerializeObject(metric)));
         }
     }
-}
