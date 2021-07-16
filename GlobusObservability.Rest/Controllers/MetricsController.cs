@@ -27,24 +27,6 @@ namespace GlobusObservability.Rest.Controllers
             _metricRepository = metricRepository;
         }
 
-        [HttpGet("parseAndPush")]
-        public async Task ParseAllAndPushAsync(bool onlyNew)
-        {
-            var metrics = _metricRepository.LoadAllMetrics(onlyNew);
-            
-            var paths = MetricsPushToFileHelper.Push(metrics, _configuration);
-
-            await new PushGatewayHelper(_logger).PushMetrics(metrics);
-        }
-
-        [HttpGet("pushParsed")]
-        public async void PushParsed()
-        {
-            var metrics = _metricRepository.LoadParsed();
-            
-            await new PushGatewayHelper(_logger).PushMetrics(metrics);
-        }
-        
         [HttpGet("uploadParsed")]
         public async Task UploadParsed()
         {
