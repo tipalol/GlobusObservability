@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wB083nVL9/EArhrmymb+keeH6mismN9y5mchbmY7lZ/iAWyk2gbTxTb+oSFSxJD9ZNK+bcy/xlIlfpuwVIskhQ==",
+  "dgSpecHash": "00KCrBn3HB60NE/Hxf+eHYWKduZavldHb1MqDerl6Lx5lnXppsVnk6RflK3pQQli2gwE6Ps0p83q3aWFvVsLWw==",
   "success": true,
   "projectFilePath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
   "expectedPackageFiles": [
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512"
   ],
   "logs": []

@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj": {}
+  },
+  "projects": {
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
+        "projectName": "GlobusObservability.Core",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj",
+        "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj",
+        "projectName": "GlobusObservability.PerfomanceTests",
+        "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/GlobusObservability.PerfomanceTests.csproj",
+        "packagesPath": "/Users/sorokindmitrij/.nuget/packages/",
+        "outputPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.PerfomanceTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sorokindmitrij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj": {
+                "projectPath": "/Users/sorokindmitrij/RiderProjects/GlobusObservability/GlobusObservability.Core/GlobusObservability.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

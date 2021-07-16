@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using GlobusObservability.Core;
 using GlobusObservability.Core.Entities;
 
@@ -41,5 +42,9 @@ namespace GlobusObservability.Infrastructure.Repositories
         public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew);
 
         public void Clear();
+
+        public IEnumerable<JsonMetricsModel> LoadParsed();
+
+        public Task UploadMetric(JsonMetricsModel model);
     }
 }

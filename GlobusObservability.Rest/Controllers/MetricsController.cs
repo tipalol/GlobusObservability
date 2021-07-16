@@ -34,7 +34,45 @@ namespace GlobusObservability.Rest.Controllers
             
             var paths = MetricsPushToFileHelper.Push(metrics, _configuration);
 
-            await PushGatewayHelper.PushMetrics(metrics);
+            await new PushGatewayHelper(_logger).PushMetrics(metrics);
+        }
+
+        [HttpGet("pushParsed")]
+        public async void PushParsed()
+        {
+            var metrics = _metricRepository.LoadParsed();
+            
+            await new PushGatewayHelper(_logger).PushMetrics(metrics);
+        }
+        
+        [HttpGet("uploadParsed")]
+        public async Task UploadParsed()
+        {
+            var metrics = _metricRepository.LoadParsed();
+
+            int counter = 0;
+            foreach (var metric in metrics)
+            {
+                counter++;
+
+                _logger.Information($"Uploading {counter} file of {metrics.Count()}");
+
+                await _metricRepository.UploadMetric(metric);
+                metric.Dispose();
+            }
+            
+            
+        }
+
+        [HttpGet("parseAndUpload")]
+        public async Task ParseAndUpload(bool onlyNew)
+        {
+            _logger.Information("Parsing started");
+            _logger.Information($"Parsed {ParseAll(onlyNew).Count()} files");
+
+            _logger.Information("Starting upload to Sql Server");
+
+            await UploadParsed();
         }
         
         [HttpGet("parse")]
@@ -48,18 +86,20 @@ namespace GlobusObservability.Rest.Controllers
         }
 
         [HttpGet("metrics")]
-        public IEnumerable<JsonMetricsModel> GetAllMetrics()
+        public IEnumerable<JsonMetricsModel> GetAllMetrics(bool printResults)
         {
             var metrics = _metricRepository.GetAllMetrics();
             
             MetricsPushToFileHelper.Push(metrics, _configuration);
             
-            _metricRepository.Clear();
+            //_metricRepository.Clear();
             
             _logger.Information("GET Request: GetAllMetrics");
-            
-            return metrics;
+
+            return printResults ? metrics : new JsonMetricsModel[] {  };
         }
+        
+        
 
         [HttpGet("metricsInPeriod")]
         public IEnumerable<JsonMetricsModel> GetMetricsInPeriod(DateTime from, DateTime to)

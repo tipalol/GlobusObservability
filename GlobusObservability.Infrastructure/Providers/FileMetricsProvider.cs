@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using GlobusObservability.Core.Entities;
+using Newtonsoft.Json;
 
 namespace GlobusObservability.Infrastructure.Providers
 {
@@ -37,6 +39,44 @@ namespace GlobusObservability.Infrastructure.Providers
             }
 
             return xmlMetrics;
+        }
+
+        public IEnumerable<JsonMetricsModel> GetParsed(string parsedFolder)
+        {
+            var files = Directory.GetFiles(parsedFolder, "*.json", SearchOption.AllDirectories).ToList();
+
+            try
+            {
+                var jsonMetrics = (
+                    from file in files
+                    select JsonConvert.DeserializeObject<JsonMetricsModel>(File.ReadAllText(file))
+                ).ToList();
+
+                return jsonMetrics;
+
+            }
+            catch (Exception e)
+            {
+                
+            }
+
+            return null;
+
+            var json = new List<JsonMetricsModel>();
+            foreach (var file in files)
+            {
+                try
+                {
+                    json.Add(JsonConvert.DeserializeObject<JsonMetricsModel>(file));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+            }
+
+            return null;
         }
     }
 }
