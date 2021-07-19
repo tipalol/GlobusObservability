@@ -42,6 +42,7 @@ namespace GlobusObservability.Core.Entities
         public void Dispose()
         {
             // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+            Metrics = null;
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
         }

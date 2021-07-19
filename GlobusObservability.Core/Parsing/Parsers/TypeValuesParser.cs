@@ -87,7 +87,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
                     // Parsing of measValue blocks
                     // Result will be like {"Type": 1, "Value": [1,2,3,4]}
                     var measureValues = new List<(int, long[])> ();
-                    string[] debugValue = new string[] { };
+                    var debugValue = Array.Empty<string>();
 
                     try
                     {
@@ -118,7 +118,7 @@ namespace GlobusObservability.Core.Parsing.Parsers
                         throw;
                     }
 
-                    // Join measureTypes list with measureValues to specidy types
+                    // Join measureTypes list with measureValues to specify types
                     // Result will be like {"Type", [0,1,2,3]}
                     var typedMetrics = 
                         measureValues.ToDictionary(measure 

@@ -46,6 +46,29 @@ namespace GlobusObservability.Rest.Controllers
             
         }
 
+
+        public async Task UploadToVm()
+        {
+            var pushHelper = new VmPushHelper();
+            
+            var metrics = _metricRepository.LoadParsed();
+            
+            var counter = 0;
+            var jsonMetricsModels = metrics.ToList();
+            
+            foreach (var metric in jsonMetricsModels)
+            {
+                counter++;
+
+                _logger.Information($"Uploading {counter} file of {jsonMetricsModels.Count()}");
+
+                await pushHelper.Push(metric);
+                metric.Dispose();
+            }
+
+            metrics = null;
+        }
+
         [HttpGet("parseAndUpload")]
         public async Task ParseAndUpload(bool onlyNew)
         {
