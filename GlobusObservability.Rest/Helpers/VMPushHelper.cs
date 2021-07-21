@@ -47,8 +47,9 @@ namespace GlobusObservability.Rest.Helpers
                                             nodeInfo = measures.Key
                                         },
                                         values = measure.Value,
-                                        timestamps = new [] {metric.Duration}
+                                        timestamps = new [] {((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds()}
                                     };
+                                        var timestamp = ((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds();
 
                                         var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
                                         _logger.Debug($"Metric posted to VM. {JsonConvert.SerializeObject(vmModel)}");
@@ -64,7 +65,7 @@ namespace GlobusObservability.Rest.Helpers
         {
             public VmMetric metric { get; set; }
             public long[] values { get; set; }
-            public DateTime[] timestamps { get; set; }
+            public long[] timestamps { get; set; }
         }
 
         private class VmMetric
