@@ -4,6 +4,10 @@ using Dapper;
 using Dapper.Contrib.Extensions;
 using Microsoft.Data.SqlClient;
 using System.Threading.Tasks;
+using GlobusObservability.Rest.Helpers;
+using System.IO;
+using Newtonsoft.Json;
+using GlobusObservability.Core.Entities;
 
 namespace GlobusObservability.UnitTests
 {
@@ -14,6 +18,16 @@ namespace GlobusObservability.UnitTests
         [SetUp]
         public void Setup()
         {
+        }
+
+        [Test]
+        public async Task TestVmPush()
+        {
+            var vmPush = new VmPushHelper();
+
+            var json = File.ReadAllText("C:/Users/DmYuSorokin/Documents/metrics/metrics2021-07-16-09-28-10/2021-07-12-00-00-00-L0562718-18-26-VCMTSstatsfill-ONRM_ROOT_MOeNodeB_ORB.json");
+
+            await vmPush.Push(JsonConvert.DeserializeObject<JsonMetricsModel>(json));
         }
 
         [Test]

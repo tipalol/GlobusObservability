@@ -46,10 +46,10 @@ namespace GlobusObservability.Rest.Controllers
             
         }
 
-
+        [HttpGet("uploadToVM")]
         public async Task UploadToVm()
         {
-            var pushHelper = new VmPushHelper();
+            var pushHelper = new VmPushHelper(_logger);
             
             var metrics = _metricRepository.LoadParsed();
             
