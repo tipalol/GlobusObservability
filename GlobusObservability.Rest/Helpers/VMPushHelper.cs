@@ -42,7 +42,7 @@ namespace GlobusObservability.Rest.Helpers
                                             instance = "GlobusObservability",
                                             job = "GlobusMetrics",
                                             measureId = metric.Id,
-                                            nodeName = model.NodeName,
+                                            nodeName = model.NodeName.Replace("statsfill", ""),
                                             subNetoworks = model.SubNetworks,
                                             nodeInfo = measures.Key
                                         },
