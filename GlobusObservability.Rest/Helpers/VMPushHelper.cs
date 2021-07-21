@@ -50,8 +50,9 @@ namespace GlobusObservability.Rest.Helpers
                                         timestamps = new [] {metric.Duration}
                                     };
 
-                                        await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
+                                        var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
                                         _logger.Debug($"Metric posted to VM. {JsonConvert.SerializeObject(vmModel)}");
+                                        _logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
                                 }
                             }
                         }
