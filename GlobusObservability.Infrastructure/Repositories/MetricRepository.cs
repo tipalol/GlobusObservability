@@ -14,6 +14,7 @@ using Dapper.Contrib;
 using System.Threading.Tasks;
 using Dapper.Contrib.Extensions;
 using GlobusObservability.Core.Helpers;
+using Newtonsoft.Json;
 
 namespace GlobusObservability.Infrastructure.Repositories
 {
@@ -100,6 +101,17 @@ namespace GlobusObservability.Infrastructure.Repositories
             var jsonMetrics = new FileMetricsProvider().GetParsed(metricsFolder);
 
             return jsonMetrics;
+        }
+
+        public IEnumerable<string> CleanWrongMetrics()
+        {
+            var metricsFolder = _config.GetSection("Parsing")["MetricsJsonDestination"];
+
+            var deleted = new FileMetricsProvider().CleanWrong(metricsFolder);
+            
+            _logger.Debug($"Clean Done. Cleaned files: {JsonConvert.SerializeObject(deleted)}");
+
+            return deleted;
         }
 
         public IEnumerable<JsonMetricsModel> LoadAllMetrics(bool onlyNew)

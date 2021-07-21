@@ -41,6 +41,23 @@ namespace GlobusObservability.Infrastructure.Providers
             return xmlMetrics;
         }
 
+        public IEnumerable<string> CleanWrong(string parsedFolder)
+        {
+            var files = Directory.GetFiles(parsedFolder, "*.json", SearchOption.AllDirectories).ToList();
+
+            var wrongFiles = files.Where(file => new FileInfo(file).Length < 1000);
+
+            var deletedFiles = new List<string>();
+
+            foreach (var file in wrongFiles)
+            {
+                File.Delete(file);
+                deletedFiles.Add(file);
+            }
+
+            return deletedFiles;
+        }
+
         public IEnumerable<JsonMetricsModel> GetParsed(string parsedFolder)
         {
             var files = Directory.GetFiles(parsedFolder, "*.json", SearchOption.AllDirectories).ToList();
