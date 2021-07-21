@@ -90,6 +90,7 @@ namespace GlobusObservability.Rest.Controllers
             return paths;
         }
 
+        [HttpGet("cleanWrong")]
         public IEnumerable<string> CleanWrongFormats()
         {
             var deleted = _metricRepository.CleanWrongMetrics();
