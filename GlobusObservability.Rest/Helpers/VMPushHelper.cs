@@ -41,27 +41,43 @@ namespace GlobusObservability.Rest.Helpers
                                 {
                                 measureCounter++;
                                     var metricId = measure.Key;
-                                    
-                                        var vmModel = new VmModel()
+
+                                    var vmModel = new VmModel()
                                     {
-                                        metric = new VmMetric()
+                                        metric = new Dictionary<string, string>()
                                         {
-                                            __name__ = measure.Key,
-                                            instance = "GlobusObservability",
-                                            job = "GlobusMetrics",
-                                            measureId = metric.Id,
-                                            nodeName = model.NodeName.Replace("statsfill", ""),
-                                            subNetoworks = model.SubNetworks,
-                                            nodeInfo = measures.Key
+                                            {"__name__", measure.Key.Replace("statsfill", "")},
+                                            {"instance", "GlobusObservability"},
+                                            {"job", "GlobusMetrics"},
+                                            {"measureId", metric.Id},
+                                            {"nodeName", model.NodeName.Replace("statsfill", "")},
+                                            {"nodeInfo", measures.Key}
                                         },
                                         values = measure.Value,
                                         timestamps = new [] {((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds()}
                                     };
-                                        var timestamp = ((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds();
 
-                                        var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
-                                        _logger.Debug($"Metric {measureCounter}/{measures.Value.Count} from metric {counter}/{model.Metrics.Count} posted to VM. {JsonConvert.SerializeObject(vmModel)}");
-                                        _logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
+                                    if (model.SubNetworks.Length == 1)
+                                        vmModel.metric["subNetwork1"] = model.SubNetworks[0];
+                                    
+                                    if (model.SubNetworks.Length == 2)
+                                        vmModel.metric["subNetwork2"] = model.SubNetworks[1];
+
+                                    if (model.SubNetworks.Length == 3)
+                                        vmModel.metric["subNetwork3"] = model.SubNetworks[2];
+
+                                    var dynamicProperties = measures.Key.Split(',');
+
+                                    foreach (var propertyPair in dynamicProperties)
+                                    {
+                                        var pair = propertyPair.Split('=');
+
+                                        vmModel.metric.Add(pair[0], pair[1]);
+                                    }
+
+                                    var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
+                                    _logger.Debug($"Metric {measureCounter}/{measures.Value.Count} from metric {counter}/{model.Metrics.Count} posted to VM. {JsonConvert.SerializeObject(vmModel)}");
+                                    _logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
                                 }
                             }
                         }
@@ -75,7 +91,7 @@ namespace GlobusObservability.Rest.Helpers
 
         private class VmModel
         {
-            public VmMetric metric { get; set; }
+            public Dictionary<string, string> metric { get; set; }
             public long[] values { get; set; }
             public long[] timestamps { get; set; }
         }
@@ -85,7 +101,12 @@ namespace GlobusObservability.Rest.Helpers
             public string __name__ { get; set; }
             public string job { get; set; }
             public string instance { get; set; }
-            public string[] subNetoworks { get; set; }
+    
+            public string subNetwork1 { get; set; }
+            
+            public string subNetwork2 { get; set; }
+            
+            public string subNetwork3 { get; set; }
             public string nodeName { get; set; }
             public string measureId { get; set; }
             public string nodeInfo { get; set; }
