@@ -33,29 +33,25 @@ namespace GlobusObservability.Rest.Helpers
                                 foreach (var measure in measures.Value)
                                 {
                                     var metricId = measure.Key;
- 
-                                    foreach (var ms in measure.Value)
+                                    
+                                        var vmModel = new VmModel()
                                     {
-                                        var networks = model.SubNetworks.Aggregate("", (current, net) => current + (net + "-"));
-
-                                        var promMetric = Metrics.CreateGauge(measure.Key, "", new[]
+                                        metric = new VmMetric()
                                         {
-                                            $"{metric.Date:yyyy-MM-dd-HH-mm-ss}-{metric.NodeName}-{networks}",
-                                            $"{metric.Date:yyyy-MM-dd-HH-mm-ss}",
-                                            $"{networks}",
-                                            $"{metric.NodeName}",
-                                            $"{model.Id}",
-                                            $"{measure.Key}"
-                                        });
-
-                                    var vmModel = new VmModel()
-                                    {
-
+                                            __name__ = measure.Key,
+                                            instance = "GlobusObservability",
+                                            job = "GlobusMetrics",
+                                            measureId = metric.Id,
+                                            nodeName = model.NodeName,
+                                            subNetoworks = model.SubNetworks,
+                                            nodeInfo = measures.Key
+                                        },
+                                        values = measure.Value,
+                                        timestamps = new [] {metric.Duration}
                                     };
 
-
-                                        //await Push(metricLabels, metricId, metricValue);
-                                    }
+                                        await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
+                                        _logger.Debug($"Metric posted to VM. {JsonConvert.SerializeObject(vmModel)}");
                                 }
                             }
                         }
@@ -66,8 +62,8 @@ namespace GlobusObservability.Rest.Helpers
         private class VmModel
         {
             public VmMetric metric { get; set; }
-            public List<string> values { get; set; }
-            public List<DateTime> timestamps { get; set; }
+            public long[] values { get; set; }
+            public DateTime[] timestamps { get; set; }
         }
 
         private class VmMetric
@@ -75,10 +71,10 @@ namespace GlobusObservability.Rest.Helpers
             public string __name__ { get; set; }
             public string job { get; set; }
             public string instance { get; set; }
-            public DateTime time { get; set; }
             public string[] subNetoworks { get; set; }
             public string nodeName { get; set; }
             public string measureId { get; set; }
+            public string nodeInfo { get; set; }
         }
     }
 }

@@ -21,16 +21,6 @@ namespace GlobusObservability.UnitTests
         }
 
         [Test]
-        public async Task TestVmPush()
-        {
-            var vmPush = new VmPushHelper();
-
-            var json = File.ReadAllText("C:/Users/DmYuSorokin/Documents/metrics/metrics2021-07-16-09-28-10/2021-07-12-00-00-00-L0562718-18-26-VCMTSstatsfill-ONRM_ROOT_MOeNodeB_ORB.json");
-
-            await vmPush.Push(JsonConvert.DeserializeObject<JsonMetricsModel>(json));
-        }
-
-        [Test]
         [Ignore("Debug Method")]
         public async Task Test1()
         {
