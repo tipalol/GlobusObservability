@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using GlobusObservability.Core.Entities;
@@ -22,10 +23,12 @@ namespace GlobusObservability.Rest.Helpers
         {
             var client = new HttpClient();
             var counter = 0;
-
+            var status = new List<Task>();
                 foreach (var metric in model.Metrics)
                 {
-                counter++;
+                    status.Add(Task.Run(async () =>
+                    {
+                        counter++;
                     foreach (var values in metric.Value)
                     {
                         foreach (var value in values)
@@ -62,6 +65,16 @@ namespace GlobusObservability.Rest.Helpers
                             }
                         }
                     }
+                    }));
+                
+                }
+
+                var isDone = false;
+                while (isDone != true)
+                {
+                    var success = status.Count(task => task.IsCompleted);
+
+                    isDone = success >= status.Count;
                 }
         }
 
