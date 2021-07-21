@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using GlobusObservability.Core.Entities;
 using Newtonsoft.Json;
@@ -69,13 +70,7 @@ namespace GlobusObservability.Rest.Helpers
                 
                 }
 
-                var isDone = false;
-                while (isDone != true)
-                {
-                    var success = status.Count(task => task.IsCompleted);
-
-                    isDone = success >= status.Count;
-                }
+                Task.WaitAll(status.ToArray(), CancellationToken.None);
         }
 
         private class VmModel
