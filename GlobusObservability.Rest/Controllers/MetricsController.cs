@@ -55,7 +55,8 @@ namespace GlobusObservability.Rest.Controllers
             
             var counter = 0;
             var jsonMetricsModels = metrics.ToList();
-            
+
+            _logger.Debug("Started to upload metrics");
             foreach (var metric in jsonMetricsModels)
             {
                 counter++;

@@ -21,17 +21,21 @@ namespace GlobusObservability.Rest.Helpers
         public async Task Push(JsonMetricsModel model)
         {
             var client = new HttpClient();
+            var counter = 0;
 
                 foreach (var metric in model.Metrics)
                 {
+                counter++;
                     foreach (var values in metric.Value)
                     {
                         foreach (var value in values)
                         {
                             foreach (var measures in values)
                             {
+                            var measureCounter = 0;
                                 foreach (var measure in measures.Value)
                                 {
+                                measureCounter++;
                                     var metricId = measure.Key;
                                     
                                         var vmModel = new VmModel()
@@ -52,7 +56,7 @@ namespace GlobusObservability.Rest.Helpers
                                         var timestamp = ((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds();
 
                                         var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
-                                        _logger.Debug($"Metric posted to VM. {JsonConvert.SerializeObject(vmModel)}");
+                                        _logger.Debug($"Metric {measureCounter}/{measures.Value.Count} from metric {counter}/{model.Metrics.Count} posted to VM. {JsonConvert.SerializeObject(vmModel)}");
                                         _logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
                                 }
                             }
