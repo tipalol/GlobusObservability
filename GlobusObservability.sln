@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobusObservability.Integra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobusObservability.PerfomanceTests", "GlobusObservability.PerfomanceTests\GlobusObservability.PerfomanceTests.csproj", "{DC58F021-F1A2-45B2-AE2C-5942BF5D1868}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{F4582ED4-F252-4309-A1F2-56C89F23894E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,10 +46,15 @@ Global
 		{DC58F021-F1A2-45B2-AE2C-5942BF5D1868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC58F021-F1A2-45B2-AE2C-5942BF5D1868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC58F021-F1A2-45B2-AE2C-5942BF5D1868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4582ED4-F252-4309-A1F2-56C89F23894E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4582ED4-F252-4309-A1F2-56C89F23894E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4582ED4-F252-4309-A1F2-56C89F23894E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4582ED4-F252-4309-A1F2-56C89F23894E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{63F6DAB8-A9FE-40C5-8E93-6FDD568B2A09} = {18E709AC-DC6A-4E36-847B-C9FC6B02FB21}
 		{C7C8E2BE-36D3-40CC-B05F-2DEABEB6C91D} = {18E709AC-DC6A-4E36-847B-C9FC6B02FB21}
 		{DC58F021-F1A2-45B2-AE2C-5942BF5D1868} = {18E709AC-DC6A-4E36-847B-C9FC6B02FB21}
+		{F4582ED4-F252-4309-A1F2-56C89F23894E} = {18E709AC-DC6A-4E36-847B-C9FC6B02FB21}
 	EndGlobalSection
 EndGlobal

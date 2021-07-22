@@ -92,27 +92,29 @@ namespace GlobusObservability.Rest.Helpers
             _logger.Debug($"Send {metricCounter} metrics!");
         }
 
-        private class VmModel
-        {
-            public Dictionary<string, string> metric { get; set; }
-            public long[] values { get; set; }
-            public long[] timestamps { get; set; }
-        }
-
-        private class VmMetric
-        {
-            public string __name__ { get; set; }
-            public string job { get; set; }
-            public string instance { get; set; }
+        
+    }
     
-            public string subNetwork1 { get; set; }
+    public class VmModel
+    {
+        public Dictionary<string, string> metric { get; set; }
+        public long[] values { get; set; }
+        public long[] timestamps { get; set; }
+    }
+
+    public class VmMetric
+    {
+        public string __name__ { get; set; }
+        public string job { get; set; }
+        public string instance { get; set; }
+    
+        public string subNetwork1 { get; set; }
             
-            public string subNetwork2 { get; set; }
+        public string subNetwork2 { get; set; }
             
-            public string subNetwork3 { get; set; }
-            public string nodeName { get; set; }
-            public string measureId { get; set; }
-            public string nodeInfo { get; set; }
-        }
+        public string subNetwork3 { get; set; }
+        public string nodeName { get; set; }
+        public string measureId { get; set; }
+        public string nodeInfo { get; set; }
     }
 }
