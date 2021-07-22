@@ -24,6 +24,7 @@ namespace GlobusObservability.Rest.Helpers
         {
             var client = new HttpClient();
             var counter = 0;
+            var metricCounter = 0;
             var status = new List<Task>();
                 foreach (var metric in model.Metrics)
                 {
@@ -42,6 +43,7 @@ namespace GlobusObservability.Rest.Helpers
                                 measureCounter++;
                                     var metricId = measure.Key;
 
+                                        metricCounter++;
                                     var vmModel = new VmModel()
                                     {
                                         metric = new Dictionary<string, string>()
@@ -87,6 +89,7 @@ namespace GlobusObservability.Rest.Helpers
                 }
 
                 Task.WaitAll(status.ToArray(), CancellationToken.None);
+            _logger.Debug($"Send {metricCounter} metrics!");
         }
 
         private class VmModel
