@@ -1,0 +1,12 @@
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\bin\Release\net5.0\GlobusObservability.Core.deps.json
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\bin\Release\net5.0\GlobusObservability.Core.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\bin\Release\net5.0\ref\GlobusObservability.Core.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\bin\Release\net5.0\GlobusObservability.Core.pdb
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.csproj.AssemblyReference.cache
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.AssemblyInfoInputs.cache
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.AssemblyInfo.cs
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.csproj.CoreCompileInputs.cache
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\ref\GlobusObservability.Core.dll
+C:\Users\DmYuSorokin\Documents\GitHub\GlobusObservability\GlobusObservability.Core\obj\Release\net5.0\GlobusObservability.Core.pdb

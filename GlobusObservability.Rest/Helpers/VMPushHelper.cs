@@ -49,21 +49,21 @@ namespace GlobusObservability.Rest.Helpers
                                             {"__name__", measure.Key.Replace("statsfill", "")},
                                             {"instance", "GlobusObservability"},
                                             {"job", "GlobusMetrics"},
-                                            {"measureId", metric.Id},
-                                            {"nodeName", model.NodeName.Replace("statsfill", "")},
-                                            {"nodeInfo", measures.Key}
+                                            //{"measureId", metric.Id},
+                                            {"nodeName", model.NodeName.Replace("statsfill", "")}
+                                            //{"nodeInfo", measures.Key}
                                         },
                                         values = measure.Value,
                                         timestamps = new [] {((DateTimeOffset) metric.Duration).ToUnixTimeMilliseconds()}
                                     };
 
-                                    if (model.SubNetworks.Length == 1)
+                                    if (model.SubNetworks.Length >= 1)
                                         vmModel.metric["subNetwork1"] = model.SubNetworks[0];
                                     
-                                    if (model.SubNetworks.Length == 2)
+                                    if (model.SubNetworks.Length >= 2)
                                         vmModel.metric["subNetwork2"] = model.SubNetworks[1];
 
-                                    if (model.SubNetworks.Length == 3)
+                                    if (model.SubNetworks.Length >= 3)
                                         vmModel.metric["subNetwork3"] = model.SubNetworks[2];
 
                                     var dynamicProperties = measures.Key.Split(',');
@@ -76,8 +76,8 @@ namespace GlobusObservability.Rest.Helpers
                                     }
 
                                     var response = await client.PostAsync(Uri, new StringContent(JsonConvert.SerializeObject(vmModel)));
-                                    _logger.Debug($"Metric {measureCounter}/{measures.Value.Count} from metric {counter}/{model.Metrics.Count} posted to VM. {JsonConvert.SerializeObject(vmModel)}");
-                                    _logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
+                                    //_logger.Debug($"Metric {measureCounter}/{measures.Value.Count} from metric {counter}/{model.Metrics.Count} posted to VM. {JsonConvert.SerializeObject(vmModel)}");
+                                    //_logger.Debug($"Response was {response.StatusCode} {await response.Content.ReadAsStringAsync()}");
                                 }
                             }
                         }

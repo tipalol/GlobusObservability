@@ -66,8 +66,6 @@ namespace GlobusObservability.Rest.Controllers
                 await pushHelper.Push(metric);
                 metric.Dispose();
             }
-
-            metrics = null;
         }
 
         [HttpGet("parseAndUpload")]
